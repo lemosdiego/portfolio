@@ -1,0 +1,1002 @@
+@media (max-width: 389px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../../../../public/img/header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .menu {
+        background-color: black;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .apresentacao {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .container_box {
+        width: 98%;
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .img {
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .title {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        color: #fff;
+    }
+
+    .descricao {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        color: #fff;
+        gap: 10px;
+    }
+
+    .redes {
+        width: 90%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .redes a {
+        width: 40%;
+        height: 70%;
+        font-size: 1rem;
+        border-radius: 10px;
+    }
+
+    .redes a button {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 481px) {
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../../../../public/img/header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .menu {
+        background-color: black;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .apresentacao {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .container_box {
+        width: 95%;
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .img {
+        width: 275px;
+        height: 275px;
+        border-radius: 50%;
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .title {
+        width: 90%;
+        height: 14%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        color: #fff;
+    }
+
+    .descricao {
+        width: 90%;
+        height: 18%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        color: #fff;
+        gap: 10px;
+    }
+
+    .redes {
+        width: 90%;
+        height: 12%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .redes a {
+        width: 45%;
+        height: 60%;
+        font-size: 1.2rem;
+        border-radius: 10px;
+    }
+
+    .redes a button {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 482px) and (max-width: 590px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../../../../public/img/header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .menu {
+        background-color: black;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .apresentacao {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .container_box {
+        width: 98%;
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .img {
+        width: 290px;
+        height: 290px;
+        border-radius: 50%;
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .title {
+        width: 90%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+        color: #fff;
+    }
+
+    .descricao {
+        width: 90%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        color: #fff;
+        gap: 10px;
+    }
+
+    .redes {
+        width: 90%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .redes a {
+        width: 45%;
+        height: 50%;
+        font-size: 1.1rem;
+        border-radius: 10px;
+    }
+
+    .redes a button {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 591px) and (max-width: 670px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../../../../public/img/header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .menu {
+        background-color: black;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .apresentacao {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .container_box {
+        width: 98%;
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .img {
+        width: 310px;
+        height: 310px;
+        border-radius: 50%;
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .title {
+        width: 90%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4rem;
+        color: #fff;
+    }
+
+    .descricao {
+        width: 90%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+        color: #fff;
+        gap: 10px;
+    }
+
+    .redes {
+        width: 90%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .redes a {
+        width: 48%;
+        height: 60%;
+        border-radius: 10px;
+    }
+
+    .redes a button {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 671px) and (max-width: 870px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../../../../public/img/header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .menu {
+        background-color: black;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .apresentacao {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .container_box {
+        width: 98%;
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .title {
+        width: 90%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4rem;
+        color: #fff;
+    }
+
+    .descricao {
+        width: 90%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+        color: #fff;
+        gap: 10px;
+    }
+
+    .redes {
+        width: 90%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .redes a {
+        width: 45%;
+        height: 60%;
+        border-radius: 10px;
+    }
+
+    .redes a button {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 871px) and (max-width: 992px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../../../../public/img/header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .menu {
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .apresentacao {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .container_box {
+        width: 90%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .img {
+        width: 310px;
+        height: 310px;
+        border-radius: 50%;
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .title {
+        width: 80%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.7rem;
+    }
+
+    .title h1 {
+        color: #fff;
+    }
+
+    .descricao {
+        width: 80%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4rem;
+        color: #fff;
+    }
+
+    .redes {
+        width: 80%;
+        height: 14%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+    .redes a {
+        width: 35%;
+        height: 70%;
+        font-size: 1.2rem;
+        border-radius: 10px;
+    }
+
+    .redes a button {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../../../../public/img/header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .menu {
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .apresentacao {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .container_box {
+        width: 90%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+        margin-top: 20px;
+    }
+
+    .img {
+        width: 340px;
+        height: 340px;
+        border-radius: 50%;
+
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .title {
+        width: 90%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .title h1 {
+        font-size: 3.2rem;
+        color: #fff;
+    }
+
+    .descricao {
+        width: 90%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4rem;
+        color: #fff;
+
+    }
+
+    .redes {
+        width: 90%;
+        height: 14%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+
+    }
+
+    .redes a {
+        width: 35%;
+        height: 70%;
+        border-radius: 10px;
+    }
+
+    .redes a button {
+        width: 100%;
+        height: 100%;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../../../../public/img/header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .menu {
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .apresentacao {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container_box {
+        width: 90%;
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+
+    }
+
+    .img {
+        width: 340px;
+        height: 340px;
+        border-radius: 50%;
+
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .title {
+        width: 80%;
+        height: 14%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .title h1 {
+        font-size: 3.8rem;
+        color: #fff;
+    }
+
+    .descricao {
+        width: 80%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.7rem;
+        color: #fff;
+
+    }
+
+    .redes {
+        width: 80%;
+        height: 12%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+
+    }
+
+    .redes a {
+        width: 30%;
+        height: 70%;
+        font-size: 1.2rem;
+        border-radius: 10px;
+    }
+
+    .redes a button {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 1899px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../../../../public/img/header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .menu {
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .apresentacao {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .container_box {
+        width: 90%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .img {
+        width: 370px;
+        height: 370px;
+        border-radius: 50%;
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .title {
+        width: 80%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title h1 {
+        font-size: 4rem;
+        color: #fff;
+    }
+
+    .descricao {
+        width: 80%;
+        height: 18%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        color: #fff;
+    }
+
+    .redes {
+        width: 80%;
+        height: 12%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .redes a {
+        width: 25%;
+        height: 75%;
+        font-size: 1.2rem;
+        border-radius: 10px;
+    }
+
+    .redes a button {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1900px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../../../../public/img/header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .menu {
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .apresentacao {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .container_box {
+        width: 90%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .img {
+        width: 370px;
+        height: 370px;
+        border-radius: 50%;
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .title {
+        width: 80%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title h1 {
+        font-size: 5rem;
+        color: #fff;
+    }
+
+    .descricao {
+        width: 80%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    .redes {
+        width: 80%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .redes a {
+        width: 25%;
+        height: 80%;
+        font-size: 1.2rem;
+        border-radius: 10px;
+    }
+
+    .redes a button {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+}
