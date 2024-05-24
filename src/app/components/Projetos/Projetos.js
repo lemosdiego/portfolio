@@ -13,7 +13,7 @@ export default function Projetos() {
         const direita = document.getElementById('projeto');
         direita.scrollLeft += 300
     }
-    // const click = () => {
+    // const click = () => { 
     //     const clique = document.getElementById('projeto')
     //     alert('clicou')
     // }

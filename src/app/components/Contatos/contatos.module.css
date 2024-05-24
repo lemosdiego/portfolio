@@ -1,4 +1,321 @@
-@media (min-width: 1601px) {
+@media (min-width: 320px) and (max-width: 419px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(5, 0, 39, 1) 0%, rgba(9, 65, 58, 1) 44%, rgba(5, 0, 39, 1) 100%);
+    }
+
+    .container_contatos {
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contatos {
+        width: 98%;
+        height: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title {
+        width: 100%;
+        height: 8%;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        font-size: 1.4rem;
+    }
+
+    .sociais {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subtitle {
+        width: 95%;
+        height: 20%;
+        color: #fff;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .icons {
+        width: 95%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .icones {
+        width: 50px;
+        height: 50px;
+        border-radius: 40%;
+    }
+
+    .icones img {
+        width: 100%;
+        height: 100%;
+        border-radius: 40%;
+    }
+
+    .rodape {
+        width: 95%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+    }
+
+    .rodape ul {
+        list-style: none;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4px;
+    }
+
+    .form {
+        width: 94%;
+        height: 55%;
+
+    }
+
+    .form form {
+        width: 99%;
+        height: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .form form input {
+        width: 95%;
+        height: 35px;
+        border-radius: 4px;
+        padding: 2px;
+        box-shadow: rgb(216, 218, 221) 0px 1px 1px, rgb(186, 191, 199) 0px 0px 1px 1px;
+        outline: none;
+        background: none;
+        border: none;
+
+    }
+
+    .form form label {
+        margin-left: 10px;
+        color: #fff;
+        font-size: 1.1rem;
+    }
+
+    .form form textarea {
+        width: 95%;
+        height: 70px;
+        padding: 2px;
+        border-radius: 4px;
+        box-shadow: rgb(216, 218, 221) 0px 1px 1px, rgb(186, 191, 199) 0px 0px 1px 1px;
+        resize: none;
+        background: none;
+        border: none;
+
+    }
+
+    .form form button {
+        background: none;
+        border: none;
+        width: 50%;
+        height: 30px;
+        border-radius: 4px;
+        box-shadow: rgb(216, 218, 221) 0px 1px 1px, rgb(186, 191, 199) 0px 0px 1px 1px;
+
+    }
+
+
+}
+
+@media (min-width: 420px) and (max-width: 530px) {
+    .container {
+        border: solid 1px #000;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(5, 0, 39, 1) 0%, rgba(9, 65, 58, 1) 44%, rgba(5, 0, 39, 1) 100%);
+    }
+
+    .container_contatos {
+        border: solid 1px #000;
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contatos {
+        border: solid 1px #000;
+        width: 98%;
+        height: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title {
+        border: solid 1px #000;
+        width: 100%;
+        height: 8%;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        font-size: 1.4rem;
+    }
+
+    .sociais {
+        border: solid 1px #000;
+        width: 95%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subtitle {
+        border: solid 1px #fff;
+        width: 95%;
+        height: 20%;
+        color: #fff;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .icons {
+        border: solid 1px #fff;
+        width: 95%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .icones {
+        border: solid 1px #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 40%;
+    }
+
+    .icones img {
+        width: 100%;
+        height: 100%;
+        border-radius: 40%;
+    }
+
+    .rodape {
+        border: solid 1px #fff;
+        width: 95%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+    }
+
+    .rodape ul {
+        list-style: none;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4px;
+    }
+
+    .form {
+        width: 95%;
+        height: 55%;
+
+    }
+
+    .form form {
+        width: 99%;
+        height: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .form form input {
+        width: 95%;
+        height: 35px;
+        border-radius: 4px;
+        padding: 2px;
+        box-shadow: rgb(216, 218, 221) 0px 1px 1px, rgb(186, 191, 199) 0px 0px 1px 1px;
+        outline: none;
+        background: none;
+        border: none;
+
+    }
+
+    .form form label {
+        margin-left: 10px;
+        color: #fff;
+        font-size: 1.1rem;
+    }
+
+    .form form textarea {
+        width: 95%;
+        height: 70px;
+        padding: 2px;
+        border-radius: 4px;
+        box-shadow: rgb(216, 218, 221) 0px 1px 1px, rgb(186, 191, 199) 0px 0px 1px 1px;
+        resize: none;
+        background: none;
+        border: none;
+
+    }
+
+    .form form button {
+        width: 50%;
+        height: 30px;
+        border-radius: 4px;
+        box-shadow: rgb(216, 218, 221) 0px 1px 1px, rgb(186, 191, 199) 0px 0px 1px 1px;
+
+    }
+
+
+}
+
+@media (min-width: 531px) and (max-width: 650px) {}
+
+@media (min-width: 651px) and (max-width: 700px) {}
+
+@media (min-width: 701px) and (max-width: 850px) {}
+
+@media (min-width: 851px) and (max-width: 1024px) {}
+
+@media (min-width: 1025px) and (max-width: 1200px) {}
+
+@media (min-width: 1201px) and (max-width: 1600px) {}
+
+@media (min-width: 1601px) and (max-width: 1900px) {
     .container {
         width: 100%;
         height: 100vh;
@@ -163,3 +480,5 @@
         cursor: pointer;
     }
 }
+
+@media (min-width: 1901px) {}

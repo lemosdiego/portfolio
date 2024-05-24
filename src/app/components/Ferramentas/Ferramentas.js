@@ -6,7 +6,9 @@ export default function Ferramentas() {
     return (
         <section className={Styles.container} id="ferramentas">
             <div className={Styles.container1}>
-                <div className={Styles.title_mobile}></div>
+                <div className={Styles.title_mobile}>
+                    <h2>Habilidades</h2>
+                </div>
                 <div className={Styles.box}>
                     <div className={Styles.hard_skills}>
                         <div className={Styles.container_icons}>
@@ -160,6 +162,12 @@ export default function Ferramentas() {
                             </div>
                             <div className={Styles.arrow}>
                             </div>
+                            <div className={Styles.arrow_mobile}>
+
+                            </div>
+                            <div className={Styles.hard_mobile}>
+                                <h3>Hard skills</h3>
+                            </div>
                         </div>
                         <div className={Styles.container_skills1}>
                             <div className={Styles.arrow}>
@@ -167,6 +175,12 @@ export default function Ferramentas() {
                             </div>
                             <div className={Styles.hard}>
                                 <h3>Hard Skills</h3>
+                            </div>
+                            <div className={Styles.soft_mobile}>
+                                <h3>Soft skills</h3>
+                            </div>
+                            <div className={Styles.arrow_mobile}>
+
                             </div>
                         </div>
                     </div>

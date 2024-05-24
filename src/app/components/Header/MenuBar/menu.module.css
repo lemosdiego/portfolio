@@ -1,4 +1,8 @@
-@media (min-width: 320px) and (max-width: 219px) {}
+@media (min-width: 320px) and (max-width: 419px) {
+    .nav {
+        display: none;
+    }
+}
 
 @media (min-width: 420px) and (max-width: 530px) {}
 
