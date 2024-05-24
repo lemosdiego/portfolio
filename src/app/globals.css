@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+
 }
 
 body {
@@ -14,3 +18,8 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* 
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal; */

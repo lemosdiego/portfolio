@@ -1,184 +1,52 @@
-@media (max-width: 389px) {
-    .container {
-        display: none;
-    }
-}
+@media (min-width: 320px) and (max-width: 219px) {}
 
-@media (min-width: 390px) and (max-width: 481px) {
-    .container {
-        display: none;
-    }
-}
+@media (min-width: 420px) and (max-width: 530px) {}
 
-@media (min-width: 482px) and (max-width: 590px) {
-    .container {
-        display: none;
-    }
-}
+@media (min-width: 531px) and (max-width: 650px) {}
 
-@media (min-width: 591px) and (max-width: 670px) {
-    .container {
-        display: none;
-    }
-}
+@media (min-width: 651px) and (max-width: 700px) {}
 
-@media (min-width: 671px) and (max-width: 870px) {
-    .container {
-        display: none;
-    }
-}
+@media (min-width: 701px) and (max-width: 850px) {}
 
-@media (min-width: 871px) and (max-width: 992px) {
-    .container {
+@media (min-width: 851px) and (max-width: 1024px) {}
+
+@media (min-width: 1025px) and (max-width: 1200px) {}
+
+@media (min-width: 1201px) and (max-width: 1600px) {}
+
+@media (min-width: 1601px) and (max-width: 1900px) {
+    .nav {
         width: 100%;
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        background: #003456;
-
     }
 
-    .container ul {
-        width: 70%;
-        height: 60px;
+    .nav ul {
+        width: 80%;
+        height: 90%;
         display: flex;
-        align-items: center;
         flex-direction: row;
+        align-items: center;
         justify-content: space-evenly;
         list-style: none;
-        font-size: 1.3rem;
-        font-weight: 900;
-        color: #fff;
+        box-shadow: rgb(255, 251, 251) 0px 30px 60px -12px inset, rgba(241, 238, 238, 0.952) 0px 18px 36px -18px inset;
+        border-radius: 10px;
         z-index: 999;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(39, 15, 82, 1) 0%, rgba(7, 6, 18, 1) 0%, rgba(8, 2, 34, 1) 33%, rgba(125, 120, 157, 1) 100%);
+
     }
 
-    .container ul li a {
-        text-decoration: none;
+    .nav ul li a {
         color: #fff;
-    }
-}
-
-@media (min-width: 993px) and (max-width: 1200px) {
-    .container {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        background: #003456;
-
-    }
-
-    .container ul {
-        width: 70%;
-        height: 70px;
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-evenly;
-        list-style: none;
         font-size: 1.4rem;
-        font-weight: 900;
-        color: #fff;
-        z-index: 999;
+        text-decoration: none;
     }
 
-    .container ul li a {
-        text-decoration: none;
-        color: #fff;
+    .header.rolagem a {
+        color: black;
     }
 }
 
-@media (min-width: 1201px) and (max-width: 1600px) {
-    .container {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        background: #003456;
-
-    }
-
-    .container ul {
-        width: 70%;
-        height: 70px;
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-evenly;
-        list-style: none;
-        font-size: 1.5rem;
-        font-weight: 900;
-        color: #fff;
-        z-index: 999;
-    }
-
-    .container ul li a {
-        text-decoration: none;
-        color: #fff;
-    }
-}
-
-@media (min-width: 1601px) and (max-width: 1899px) {
-    .container {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        background: #003456;
-
-    }
-
-    .container ul {
-        width: 70%;
-        height: 70px;
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-evenly;
-        list-style: none;
-        font-size: 1.6rem;
-        font-weight: 900;
-        color: #fff;
-        z-index: 999;
-    }
-
-    .container ul li a {
-        text-decoration: none;
-        color: #fff;
-    }
-}
-
-@media (min-width: 1900px) {
-    .container {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        background: #003456;
-
-    }
-
-    .container ul {
-        width: 70%;
-        height: 70px;
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-evenly;
-        list-style: none;
-        font-size: 1.6rem;
-        font-weight: 900;
-        color: #fff;
-        z-index: 999;
-    }
-
-    .container ul li a {
-        text-decoration: none;
-        color: #fff;
-    }
-}
+@media (min-width: 1901px) {}

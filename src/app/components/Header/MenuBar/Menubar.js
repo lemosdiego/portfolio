@@ -1,17 +1,13 @@
-import styles from "./menu.module.css"
+import Styles from "./menu.module.css"
 
-
-
-export default function MenuBar() {
+export default function Menu() {
     return (
-        <nav className={styles.container}>
+        <nav className={Styles.nav}>
             <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li>
-                    <a href="#sobre">Sobre</a>
-                </li>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
                 <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#ferramentas">Habilidades</a></li>
+                <li><a href="#ferramentas">Ferramentas</a></li>
                 <li><a href="#contatos">Contatos</a></li>
             </ul>
         </nav>
