@@ -18,6 +18,8 @@
     }
 
     .img {
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
         width: 95%;
         height: 30%;
     }
@@ -118,7 +120,6 @@
     }
 
     .container_sobre {
-        border: solid 1px #fff;
         width: 95%;
         height: 92%;
         display: flex;
@@ -128,14 +129,13 @@
     }
 
     .img {
-        border: solid 1px #fff;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
         width: 95%;
         height: 34%;
         border-radius: 10px;
     }
 
     .descricao {
-        border: solid 1px #fff;
         width: 98%;
         height: 65%;
         display: flex;
@@ -145,7 +145,6 @@
     }
 
     .title {
-        border: solid 1px #fff;
         width: 98%;
         height: 10%;
         color: #fff;
@@ -157,7 +156,6 @@
     }
 
     .sobremim {
-        border: solid 1px #fff;
         width: 98%;
         height: 75%;
         display: flex;
@@ -173,7 +171,6 @@
     }
 
     .redes {
-        border: solid 1px #fff;
         width: 95%;
         height: 14%;
         display: flex;
@@ -235,7 +232,6 @@
     }
 
     .container_sobre {
-        border: solid 1px #fff;
         width: 95%;
         height: 92%;
         display: flex;
@@ -245,14 +241,14 @@
     }
 
     .img {
-        border: solid 1px #fff;
-        width: 95%;
+        width: 90%;
         height: 34%;
         border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
     }
 
     .descricao {
-        border: solid 1px #fff;
         width: 98%;
         height: 65%;
         display: flex;
@@ -262,7 +258,6 @@
     }
 
     .title {
-        border: solid 1px #fff;
         width: 98%;
         height: 10%;
         color: #fff;
@@ -274,7 +269,6 @@
     }
 
     .sobremim {
-        border: solid 1px #fff;
         width: 98%;
         height: 75%;
         display: flex;
@@ -284,14 +278,13 @@
     }
 
     .sobremim p {
-        width: 98%;
+        width: 94%;
         color: #fff;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .redes {
-        border: solid 1px #fff;
-        width: 95%;
+        width: 92%;
         height: 14%;
         display: flex;
         align-items: center;
@@ -352,8 +345,7 @@
     }
 
     .container_sobre {
-        border: solid 1px #fff;
-        width: 95%;
+        width: 90%;
         height: 92%;
         display: flex;
         flex-direction: column;
@@ -362,14 +354,14 @@
     }
 
     .img {
-        border: solid 1px #fff;
-        width: 95%;
+        width: 84%;
         height: 34%;
         border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
     }
 
     .descricao {
-        border: solid 1px #fff;
         width: 98%;
         height: 65%;
         display: flex;
@@ -379,20 +371,18 @@
     }
 
     .title {
-        border: solid 1px #fff;
-        width: 98%;
-        height: 10%;
+        width: 90%;
+        height: 15%;
         color: #fff;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: center;
         font-size: 1.4rem;
     }
 
     .sobremim {
-        border: solid 1px #fff;
-        width: 98%;
+        width: 90%;
         height: 75%;
         display: flex;
         align-items: center;
@@ -401,14 +391,13 @@
     }
 
     .sobremim p {
-        width: 98%;
+        width: 99%;
         color: #fff;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .redes {
-        border: solid 1px #fff;
-        width: 95%;
+        width: 90%;
         height: 14%;
         display: flex;
         align-items: center;
@@ -458,7 +447,119 @@
     }
 }
 
-@media (min-width: 701px) and (max-width: 850px) {}
+@media (min-width: 701px) and (max-width: 850px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(76, 97, 222, 1) 0%, rgba(5, 0, 39, 1) 0%, rgba(78, 237, 215, 1) 15%, rgba(5, 0, 39, 1) 100%);
+    }
+
+    .container_sobre {
+        width: 90%;
+        height: 92%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img {
+        width: 80%;
+        height: 38%;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+    }
+
+    .descricao {
+        width: 90%;
+        height: 61%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title {
+        width: 90%;
+        height: 15%;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4rem;
+    }
+
+    .sobremim {
+        width: 90%;
+        height: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .sobremim p {
+        width: 99%;
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    .redes {
+        width: 90%;
+        height: 14%;
+        display: flex;
+        align-items: center;
+    }
+
+    .curriculo {
+        width: 50%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .curriculo a {
+        width: 49%;
+        height: 70%;
+    }
+
+    .curriculo a button {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contatos {
+        width: 50%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .icon a img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+}
 
 @media (min-width: 851px) and (max-width: 1024px) {}
 
