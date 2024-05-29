@@ -11,6 +11,7 @@
         justify-content: center;
         background-attachment: fixed;
         z-index: 999;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     }
 
     .container_projetos {
@@ -28,7 +29,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #fff;
         font-size: 1.7rem;
     }
 
@@ -42,7 +42,6 @@
     }
 
     .container_card {
-        border: solid 1px #fff;
         width: 90%;
         height: 100%;
         display: flex;
@@ -62,9 +61,11 @@
         flex-shrink: 0;
         margin: 0 10px 0 10px;
         border-radius: 10px;
-        background: #333333a4;
-        color: #fff;
         margin: 5px;
+        background: #dddcda;
+        opacity: 0.9;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        font-weight: 800;
     }
 
     .icon {
@@ -127,8 +128,13 @@
     .links a button {
         width: 100%;
         height: 100%;
-        border-radius: 10px;
+        border-radius: 8px;
         cursor: pointer;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        font-size: 1rem;
+        background: none;
+        border: none;
     }
 
 }
@@ -145,6 +151,8 @@
         align-items: center;
         justify-content: center;
         background-attachment: fixed;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
     }
 
     .container_projetos {
@@ -162,7 +170,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #fff;
         font-size: 1.9rem;
     }
 
@@ -176,7 +183,7 @@
     }
 
     .container_card {
-        width: 90%;
+        width: 94%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -195,9 +202,11 @@
         flex-shrink: 0;
         margin: 0 10px 0 10px;
         border-radius: 10px;
-        background: #333333a4;
-        color: #fff;
         margin: 5px;
+        background: #dddcda;
+        opacity: 0.9;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        font-weight: 800;
     }
 
     .icon {
@@ -260,8 +269,13 @@
     .links a button {
         width: 100%;
         height: 100%;
-        border-radius: 10px;
+        border-radius: 8px;
         cursor: pointer;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        font-size: 1rem;
+        background: none;
+        border: none;
     }
 }
 
@@ -605,7 +619,6 @@
     }
 
     .card {
-
         display: flex;
         flex-direction: column;
         height: 95%;
@@ -680,11 +693,482 @@
     }
 }
 
-@media (min-width: 851px) and (max-width: 1024px) {}
+@media (min-width: 851px) and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        background: url(../../../../public/img/projetos.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-attachment: fixed;
+    }
 
-@media (min-width: 1025px) and (max-width: 1200px) {}
+    .container_projetos {
+        width: 98%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
 
-@media (min-width: 1201px) and (max-width: 1600px) {}
+    .title {
+        width: 95%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .projetos {
+        width: 98%;
+        height: 78%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 40%;
+    }
+
+    .icon button {
+        width: 100%;
+        height: 100%;
+        border-radius: 40%;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .icon button img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .container_card {
+        width: 90%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        scroll-behavior: smooth;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        height: 98%;
+        width: 290px;
+        flex-shrink: 0;
+        margin: 0 10px 0 10px;
+        border-radius: 10px;
+        background: #dddcda;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        font-weight: 800;
+    }
+
+    .card p {
+        width: 90%;
+    }
+
+    .imagem {
+        width: 100%;
+        height: 40%;
+    }
+
+    .imagem img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .titulo {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo h3 {
+        font-size: 1.5rem;
+    }
+
+    .descricao {
+        width: 100%;
+        height: 36%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .descricao p {
+        width: 90%;
+        font-size: 0.8rem;
+    }
+
+    .links {
+        width: 100%;
+        height: 12%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .links a {
+        width: 40%;
+        height: 80%;
+
+    }
+
+    .links a button {
+        width: 100%;
+        height: 100%;
+        background: none;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        background: url(../../../../public/img/projetos.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-attachment: fixed;
+    }
+
+    .container_projetos {
+        width: 95%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .title {
+        width: 95%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .projetos {
+        width: 95%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 40%;
+    }
+
+    .icon button {
+        width: 100%;
+        height: 100%;
+        border-radius: 40%;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .icon button img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .container_card {
+        width: 90%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        scroll-behavior: smooth;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        height: 98%;
+        width: 290px;
+        flex-shrink: 0;
+        margin: 0 10px 0 10px;
+        border-radius: 10px;
+        background: #dddcda;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        font-weight: 800;
+    }
+
+    .card p {
+        width: 90%;
+    }
+
+    .imagem {
+        width: 100%;
+        height: 40%;
+    }
+
+    .imagem img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .titulo {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo h3 {
+        font-size: 1.5rem;
+    }
+
+    .descricao {
+        width: 100%;
+        height: 36%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .descricao p {
+        width: 90%;
+        font-size: 0.8rem;
+    }
+
+    .links {
+        width: 100%;
+        height: 12%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .links a {
+        width: 40%;
+        height: 80%;
+
+    }
+
+    .links a button {
+        width: 100%;
+        height: 100%;
+        background: none;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        background: url(../../../../public/img/projetos.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-attachment: fixed;
+    }
+
+    .container_projetos {
+        width: 95%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .title {
+        width: 95%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .projetos {
+        width: 95%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 40%;
+    }
+
+    .icon button {
+        width: 100%;
+        height: 100%;
+        border-radius: 40%;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .icon button img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .container_card {
+        width: 80%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        scroll-behavior: smooth;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        height: 98%;
+        width: 270px;
+        flex-shrink: 0;
+        margin: 0 10px 0 10px;
+        border-radius: 10px;
+        background: #dddcda;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        font-weight: 800;
+    }
+
+    .card p {
+        width: 90%;
+    }
+
+    .imagem {
+        width: 100%;
+        height: 40%;
+    }
+
+    .imagem img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .titulo {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo h3 {
+        font-size: 1.5rem;
+    }
+
+    .descricao {
+        width: 100%;
+        height: 36%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .descricao p {
+        width: 90%;
+        font-size: 0.8rem;
+    }
+
+    .links {
+        width: 100%;
+        height: 12%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .links a {
+        width: 40%;
+        height: 80%;
+
+    }
+
+    .links a button {
+        width: 100%;
+        height: 100%;
+        background: none;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        font-size: 0.9rem;
+    }
+}
 
 @media (min-width: 1601px) and (max-width: 1900px) {
     .container {
@@ -716,8 +1200,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #fff;
         font-size: 2.5rem;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
     }
 
     .projetos {
@@ -770,8 +1255,9 @@
         flex-shrink: 0;
         margin: 0 10px 0 10px;
         border-radius: 10px;
-        background: #333333a4;
-        color: #fff;
+        background: #dddcda;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        font-weight: 800;
     }
 
     .card p {
@@ -827,13 +1313,19 @@
     .links a {
         width: 40%;
         height: 80%;
+
     }
 
     .links a button {
         width: 100%;
         height: 100%;
+        background: none;
+        border: none;
         border-radius: 10px;
         cursor: pointer;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        font-size: 1.1rem;
     }
 }
 
