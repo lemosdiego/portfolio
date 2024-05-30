@@ -110,10 +110,10 @@
         height: 35px;
         border-radius: 4px;
         padding: 2px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border: solid 1px #000;
         outline: none;
         background: none;
-        border: none;
+        border: solid 1px #333;
         color: #000;
         font-size: 1rem;
     }
@@ -128,20 +128,19 @@
         height: 70px;
         padding: 2px;
         border-radius: 4px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border: solid 1px #333;
         resize: none;
         background: none;
-        border: none;
         font-size: 1rem;
     }
 
     .form form button {
         background: none;
-        border: none;
+        border: solid 1px #333;
         width: 50%;
         height: 35px;
         border-radius: 4px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border: solid 1px #333;
 
     }
 
@@ -260,10 +259,9 @@
         height: 35px;
         border-radius: 4px;
         padding: 2px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
         outline: none;
         background: none;
-        border: none;
+        border: solid 1px #333;
         color: #000;
         font-size: 1rem;
     }
@@ -278,20 +276,19 @@
         height: 70px;
         padding: 2px;
         border-radius: 4px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border: solid 1px #333;
         resize: none;
         background: none;
-        border: none;
         font-size: 1rem;
     }
 
     .form form button {
         background: none;
-        border: none;
+        border: solid 1px #333;
         width: 50%;
         height: 35px;
         border-radius: 4px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border: solid 1px #333;
 
     }
 
@@ -299,13 +296,14 @@
 
 @media (min-width: 531px) and (max-width: 650px) {
     .container {
-        border: solid 1px #000;
         width: 100%;
         height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(5, 0, 39, 1) 0%, rgba(9, 65, 58, 1) 44%, rgba(5, 0, 39, 1) 100%);
+        background-color: #cccac7;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
     }
 
     .container_contatos {
@@ -318,7 +316,7 @@
     }
 
     .contatos {
-        width: 95%;
+        width: 98%;
         height: 90%;
         display: flex;
         flex-direction: column-reverse;
@@ -331,12 +329,11 @@
         height: 8%;
         display: flex;
         justify-content: center;
-        color: #fff;
         font-size: 1.4rem;
     }
 
     .sociais {
-        width: 95%;
+        width: 100%;
         height: 40%;
         display: flex;
         flex-direction: column;
@@ -345,16 +342,15 @@
     }
 
     .subtitle {
-        width: 100%;
+        width: 95%;
         height: 20%;
-        color: #fff;
         font-size: 1.2rem;
         display: flex;
         align-items: center;
     }
 
     .icons {
-        width: 100%;
+        width: 95%;
         height: 25%;
         display: flex;
         align-items: center;
@@ -365,6 +361,8 @@
         width: 50px;
         height: 50px;
         border-radius: 40%;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
     }
 
     .icones img {
@@ -374,7 +372,7 @@
     }
 
     .rodape {
-        width: 100%;
+        width: 95%;
         height: 20%;
         display: flex;
         align-items: center;
@@ -382,7 +380,6 @@
 
     .rodape ul {
         list-style: none;
-        color: #fff;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -390,7 +387,7 @@
     }
 
     .form {
-        width: 95%;
+        width: 94%;
         height: 55%;
 
     }
@@ -406,41 +403,40 @@
 
     .form form input {
         width: 95%;
-        height: 38px;
+        height: 35px;
         border-radius: 4px;
         padding: 2px;
-        box-shadow: rgb(216, 218, 221) 0px 1px 1px, rgb(186, 191, 199) 0px 0px 1px 1px;
         outline: none;
         background: none;
-        border: none;
-
+        border: solid 1px #333;
+        color: #000;
+        font-size: 1rem;
     }
 
     .form form label {
         margin-left: 10px;
-        color: #fff;
         font-size: 1.1rem;
     }
 
     .form form textarea {
         width: 95%;
-        height: 74px;
+        height: 70px;
         padding: 2px;
         border-radius: 4px;
-        box-shadow: rgb(216, 218, 221) 0px 1px 1px, rgb(186, 191, 199) 0px 0px 1px 1px;
+        border: solid 1px #333;
         resize: none;
         background: none;
-        border: none;
-
+        font-size: 1rem;
     }
 
     .form form button {
-        width: 50%;
-        height: 34px;
-        border-radius: 4px;
-        box-shadow: rgb(216, 218, 221) 0px 1px 1px, rgb(186, 191, 199) 0px 0px 1px 1px;
-        border: none;
         background: none;
+        border: solid 1px #333;
+        width: 50%;
+        height: 35px;
+        border-radius: 4px;
+        border: solid 1px #333;
+
     }
 }
 
@@ -592,6 +588,7 @@
 }
 
 @media (min-width: 701px) and (max-width: 850px) {
+
     .container {
         border: solid 1px #000;
         width: 100%;
@@ -864,7 +861,7 @@
         background: none;
         outline: none;
         width: 90%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border: solid 1px #333;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         padding: 10px;
         border-radius: 10px;
@@ -887,7 +884,7 @@
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-size: 1.1rem;
         border: none;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border: solid 1px #333;
         padding: 10px;
         border-radius: 10px;
     }
@@ -1032,7 +1029,7 @@
         background: none;
         outline: none;
         width: 90%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border: solid 1px #333;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         padding: 10px;
         border-radius: 10px;
@@ -1055,7 +1052,7 @@
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-size: 1.1rem;
         border: none;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border: solid 1px #333;
         padding: 10px;
         border-radius: 10px;
     }
@@ -1065,7 +1062,7 @@
         height: 35px;
         border: none;
         background: none;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border: solid 1px #333;
         border-radius: 10px;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-size: 1rem;
@@ -1199,7 +1196,7 @@
         background: none;
         outline: none;
         width: 90%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border: solid 1px #333;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         padding: 10px;
         border-radius: 10px;
@@ -1222,7 +1219,7 @@
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-size: 1.1rem;
         border: none;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border: solid 1px #333;
         padding: 10px;
         border-radius: 10px;
     }
@@ -1232,7 +1229,7 @@
         height: 35px;
         border: none;
         background: none;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border: solid 1px #333;
         border-radius: 10px;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-size: 1rem;
@@ -1247,12 +1244,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #cccac7;
-
     }
 
     .container_contatos {
-        width: 95%;
+        border: solid 2px #000;
+        width: 90%;
         height: 80%;
         display: flex;
         flex-direction: column;
@@ -1260,150 +1256,81 @@
         justify-content: center;
     }
 
-
     .title {
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        width: 90%;
-        height: 10%;
+        border: solid 2px #000;
+        width: 80%;
+        height: 15%;
         display: flex;
         align-items: center;
-        justify-content: center;
-        font-size: 2rem;
+        justify-content: flex-start;
     }
 
-    .contatos {
-        width: 90%;
-        height: 90%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
+    .title h2 {
+        font-size: 2.7rem;
     }
 
     .form {
-        width: 50%;
-        height: 90%;
+        border: solid 2px #000;
+        width: 80%;
+        height: 70%;
         display: flex;
         align-items: center;
         justify-content: center;
-
-    }
-
-    .sociais {
-        width: 40%;
-        height: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .subtitle {
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        width: 90%;
-        height: 15%;
-        font-size: 1.7rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .icons {
-        width: 90%;
-        height: 20%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .icones {
-        width: 80px;
-        height: 80px;
-        border-radius: 40%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    }
-
-    .icones img {
-        width: 100%;
-        height: 100%;
-        border-radius: 40%;
-
-    }
-
-    .rodape {
-        width: 90%;
-        height: 25%;
-        display: flex;
-        align-items: center;
-    }
-
-    .rodape ul {
-        list-style: none;
-        padding: 10px;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        font-size: 1.4rem;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
     }
 
     .form form {
-        border-radius: 10px;
-        width: 80%;
-        height: 85%;
+        width: 90%;
+        height: 95%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 10px;
-
+        gap: 8px;
     }
 
     .form form input {
-        width: 90%;
-        height: 50px;
+        width: 70%;
+        height: 55px;
+        outline: none;
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.5);
         border: none;
         background: none;
-        outline: none;
-        width: 90%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        padding: 10px;
-        border-radius: 10px;
-        color: #000;
-        font-size: 1.2rem;
     }
 
     .form form label {
-        margin-left: 10px;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        font-size: 1.2rem;
-        font-weight: 700;
+        font-size: 1.3rem;
     }
 
     .form form textarea {
-        width: 90%;
+        width: 70%;
         height: 100px;
         resize: none;
-        background: none;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        font-size: 1.4rem;
         border: none;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        padding: 10px;
-        border-radius: 10px;
+        background: none;
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.5);
+        outline: none;
     }
 
     .form form button {
-        width: 50%;
+        width: 30%;
+        height: 55px;
+        border-radius: 8px;
+        border: solid 1px #444;
+    }
+
+    .rodape {
+        border: solid 2px #000;
+        width: 80%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .icones {
+        border: solid 1px #000;
+        width: 50px;
         height: 50px;
-        border: none;
-        background: none;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        border-radius: 10px;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        font-size: 1.2rem;
-        cursor: pointer;
+        border-radius: 50%;
     }
 }
 

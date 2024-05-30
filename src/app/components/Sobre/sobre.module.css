@@ -5,13 +5,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
     }
 
-    .container_sobre {
-        width: 95%;
+    .sobre_mim {
+        width: 90%;
         height: 90%;
         display: flex;
         flex-direction: column;
@@ -19,104 +16,68 @@
         justify-content: center;
     }
 
-    .img {
-        width: 95%;
-        height: 30%;
-        border-radius: 10px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    .titulo {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .titulo h2 {
+        font-size: 2.5rem;
     }
 
     .descricao {
-        width: 98%;
-        height: 70%;
+        width: 100%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .title {
-        width: 98%;
-        height: 10%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-end;
-        font-size: 1.2rem;
-    }
-
-    .sobremim {
-        width: 98%;
-        height: 75%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .descricao p {
+        width: 94%;
         text-align: justify;
+        font-size: 1.1rem;
     }
 
-    .sobremim p {
-        width: 98%;
-    }
-
-    .redes {
-        width: 98%;
-        height: 14%;
+    .redes_sociais {
+        width: 90%;
+        height: 10%;
         display: flex;
         align-items: center;
     }
 
     .curriculo {
         width: 50%;
-        height: 80%;
+        height: 70%;
         display: flex;
         align-items: center;
-        gap: 2px;
+        justify-content: space-around;
     }
 
-    .curriculo a {
-        width: 49%;
+    .curriculo button {
+        width: 48%;
         height: 70%;
-    }
-
-    .curriculo a button {
-        width: 100%;
-        height: 100%;
-        border: none;
-        background: none;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        background: #eeedec;
-        border-radius: 10px;
-        font-weight: 800;
     }
 
     .contatos {
         width: 50%;
-        height: 80%;
+        height: 90%;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap: 4px;
     }
 
-    .icon {
-        width: 50px;
-        height: 50px;
+    .icons {
+        border: solid 1px #000;
+        width: 45px;
+        height: 45px;
         border-radius: 50%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-
     }
-
-    .icon a img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-    }
-
 }
 
 @media (min-width: 420px) and (max-width: 530px) {
@@ -126,62 +87,48 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     }
 
-    .container_sobre {
-        width: 95%;
-        height: 92%;
+    .sobre_mim {
+        width: 90%;
+        height: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .img {
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        width: 95%;
-        height: 34%;
-        border-radius: 10px;
+    .titulo {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo h2 {
+        font-size: 2.8rem;
     }
 
     .descricao {
-        width: 98%;
-        height: 65%;
+        width: 100%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .title {
-        width: 98%;
-        height: 10%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-end;
-        font-size: 1.3rem;
-    }
-
-    .sobremim {
-        width: 98%;
-        height: 75%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .descricao p {
+        font-size: 1.1rem;
+        width: 90%;
         text-align: justify;
+        line-height: 20px;
     }
 
-    .sobremim p {
-        width: 98%;
-        font-size: 1rem;
-    }
-
-    .redes {
-        width: 95%;
-        height: 14%;
+    .redes_sociais {
+        width: 90%;
+        height: 10%;
         display: flex;
         align-items: center;
     }
@@ -191,22 +138,12 @@
         height: 80%;
         display: flex;
         align-items: center;
-        gap: 2px;
+        justify-content: space-around;
     }
 
-    .curriculo a {
-        width: 49%;
+    .curriculo button {
+        width: 48%;
         height: 70%;
-    }
-
-    .curriculo a button {
-        border: none;
-        background: none;
-        font-weight: 900;
-        width: 100%;
-        height: 100%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        border-radius: 4px;
     }
 
     .contatos {
@@ -214,24 +151,15 @@
         height: 80%;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap: 4px;
     }
 
-    .icon {
-        width: 50px;
-        height: 50px;
+    .icons {
+        border: solid 1px #000;
+        width: 55px;
+        height: 55px;
         border-radius: 50%;
-    }
-
-    .icon a img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
     }
 }
 
@@ -242,64 +170,48 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(76, 97, 222, 1) 0%, rgba(5, 0, 39, 1) 0%, rgba(78, 237, 215, 1) 15%, rgba(5, 0, 39, 1) 100%);
     }
 
-    .container_sobre {
-        width: 95%;
-        height: 92%;
+    .sobre_mim {
+        width: 90%;
+        height: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .img {
-        width: 90%;
-        height: 34%;
-        border-radius: 10px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    .titulo {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .titulo h2 {
+        font-size: 2.8rem;
     }
 
     .descricao {
-        width: 98%;
-        height: 65%;
+        width: 100%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .title {
-        width: 98%;
-        height: 10%;
-        color: #fff;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-end;
-        font-size: 1.4rem;
-    }
-
-    .sobremim {
-        width: 98%;
-        height: 75%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .descricao p {
+        width: 90%;
         text-align: justify;
-    }
-
-    .sobremim p {
-        width: 94%;
-        color: #fff;
         font-size: 1.2rem;
+        line-height: 23px;
     }
 
-    .redes {
-        width: 92%;
-        height: 14%;
+    .redes_sociais {
+        width: 90%;
+        height: 10%;
         display: flex;
         align-items: center;
     }
@@ -309,17 +221,12 @@
         height: 80%;
         display: flex;
         align-items: center;
-        gap: 2px;
+        justify-content: space-around;
     }
 
-    .curriculo a {
-        width: 49%;
+    .curriculo button {
+        width: 48%;
         height: 70%;
-    }
-
-    .curriculo a button {
-        width: 100%;
-        height: 100%;
     }
 
     .contatos {
@@ -327,24 +234,15 @@
         height: 80%;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap: 4px;
     }
 
-    .icon {
-        width: 50px;
-        height: 50px;
+    .icons {
+        border: solid 1px #000;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
-    }
-
-    .icon a img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
     }
 }
 
@@ -355,64 +253,47 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(76, 97, 222, 1) 0%, rgba(5, 0, 39, 1) 0%, rgba(78, 237, 215, 1) 15%, rgba(5, 0, 39, 1) 100%);
     }
 
-    .container_sobre {
+    .sobre_mim {
         width: 90%;
-        height: 92%;
+        height: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .img {
-        width: 84%;
-        height: 34%;
-        border-radius: 10px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    .titulo {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .titulo h2 {
+        font-size: 3rem;
     }
 
     .descricao {
-        width: 98%;
-        height: 65%;
+        width: 100%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .title {
+    .descricao p {
         width: 90%;
-        height: 15%;
-        color: #fff;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         font-size: 1.4rem;
-    }
-
-    .sobremim {
-        width: 90%;
-        height: 75%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         text-align: justify;
     }
 
-    .sobremim p {
-        width: 99%;
-        color: #fff;
-        font-size: 1.2rem;
-    }
-
-    .redes {
+    .redes_sociais {
         width: 90%;
-        height: 14%;
+        height: 10%;
         display: flex;
         align-items: center;
     }
@@ -422,17 +303,12 @@
         height: 80%;
         display: flex;
         align-items: center;
-        gap: 2px;
+        justify-content: space-around;
     }
 
-    .curriculo a {
-        width: 49%;
-        height: 70%;
-    }
-
-    .curriculo a button {
-        width: 100%;
-        height: 100%;
+    .curriculo button {
+        width: 48%;
+        height: 80%;
     }
 
     .contatos {
@@ -440,24 +316,15 @@
         height: 80%;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap: 4px;
     }
 
-    .icon {
-        width: 50px;
-        height: 50px;
+    .icons {
+        border: solid 1px #000;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
-    }
-
-    .icon a img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
     }
 }
 
@@ -468,110 +335,79 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(76, 97, 222, 1) 0%, rgba(5, 0, 39, 1) 0%, rgba(78, 237, 215, 1) 15%, rgba(5, 0, 39, 1) 100%);
     }
 
-    .container_sobre {
+    .sobre_mim {
         width: 90%;
-        height: 92%;
+        height: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .img {
-        width: 80%;
-        height: 38%;
-        border-radius: 10px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    .titulo {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .titulo h2 {
+        font-size: 3.1rem;
     }
 
     .descricao {
-        width: 90%;
-        height: 61%;
+        width: 100%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .title {
+    .descricao p {
         width: 90%;
-        height: 15%;
-        color: #fff;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         font-size: 1.4rem;
-    }
-
-    .sobremim {
-        width: 90%;
-        height: 75%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        line-height: 25px;
         text-align: justify;
     }
 
-    .sobremim p {
-        width: 99%;
-        color: #fff;
-        font-size: 1.2rem;
-    }
-
-    .redes {
+    .redes_sociais {
         width: 90%;
-        height: 14%;
+        height: 10%;
         display: flex;
         align-items: center;
     }
 
     .curriculo {
         width: 50%;
-        height: 80%;
+        height: 85%;
         display: flex;
         align-items: center;
-        gap: 2px;
+        justify-content: space-around;
     }
 
-    .curriculo a {
-        width: 49%;
+    .curriculo button {
+        width: 48%;
         height: 70%;
-    }
-
-    .curriculo a button {
-        width: 100%;
-        height: 100%;
     }
 
     .contatos {
         width: 50%;
-        height: 80%;
+        height: 85%;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        gap: 4px;
     }
 
-    .icon {
-        width: 50px;
-        height: 50px;
+    .icons {
+        border: solid 1px #000;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
-    }
-
-    .icon a img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
     }
 }
 
@@ -582,132 +418,79 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
-
     }
 
-    .container_sobre {
-        width: 98%;
+    .sobre_mim {
+        width: 90%;
         height: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .img {
-        width: 39%;
-        height: 70%;
-        border-radius: 10%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 10%;
-    }
-
-    .descricao {
-        width: 59%;
-        height: 70%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 2px;
     }
 
-    .title {
-        width: 90%;
-        height: 14%;
+    .titulo {
+        width: 100%;
+        height: 10%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .title h2 {
-        font-size: 2.5rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+    .titulo h2 {
+        font-size: 3.2rem;
     }
 
-    .sobremim {
-        width: 90%;
-        height: 68%;
-        text-align: justify;
+    .descricao {
+        width: 100%;
+        height: 80%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .sobremim p {
-        width: 98%;
-        font-size: 1rem;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    .descricao p {
+        width: 90%;
+        font-size: 1.4rem;
+        line-height: 25px;
+        text-align: center;
     }
 
-    .redes {
+    .redes_sociais {
         width: 90%;
-        height: 16%;
+        height: 10%;
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 10px;
     }
-
 
     .curriculo {
-        width: 45%;
+        width: 50%;
         height: 80%;
-        border-radius: 10px;
         display: flex;
-        flex-direction: row;
         align-items: center;
-        justify-content: center;
-        gap: 4px;
-
-    }
-
-    .curriculo a {
-        width: 47%;
-        height: 70%;
-        border-radius: 10px;
+        justify-content: space-around;
     }
 
     .curriculo button {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-        font-size: 0.9rem;
-        cursor: pointer;
-        background: none;
-        border: none;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-
+        width: 48%;
+        height: 80%;
     }
 
     .contatos {
         width: 50%;
-        height: 75%;
+        height: 80%;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        gap: 4px;
     }
 
-    .icon {
-        width: 45px;
-        height: 45px;
+    .icons {
+        border: solid 1px #000;
+        width: 55px;
+        height: 55px;
         border-radius: 50%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-
-    }
-
-    .icon img {
-        width: 100%;
-        height: 100%;
     }
 }
 
@@ -718,132 +501,79 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
-
     }
 
-    .container_sobre {
-        width: 98%;
-        height: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .img {
-        width: 35%;
-        height: 80%;
-        border-radius: 10%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 10%;
-    }
-
-    .descricao {
-        width: 55%;
+    .sobre_mim {
+        width: 90%;
         height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 5px;
     }
 
-    .title {
-        width: 90%;
-        height: 15%;
+    .titulo {
+        width: 100%;
+        height: 10%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .title h2 {
-        font-size: 2.5rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+    .titulo h2 {
+        font-size: 3.2rem;
     }
 
-    .sobremim {
-        width: 90%;
-        height: 64%;
-        text-align: justify;
+    .descricao {
+        width: 100%;
+        height: 80%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .sobremim p {
-        width: 95%;
-        font-size: 1rem;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    .descricao p {
+        width: 90%;
+        font-size: 1.5rem;
+        line-height: 28px;
+        text-align: center;
     }
 
-    .redes {
+    .redes_sociais {
         width: 90%;
-        height: 18%;
+        height: 10%;
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 10px;
     }
-
 
     .curriculo {
-        width: 45%;
-        height: 80%;
-        border-radius: 10px;
+        width: 50%;
+        height: 90%;
         display: flex;
-        flex-direction: row;
         align-items: center;
-        justify-content: center;
-        gap: 4px;
-
-    }
-
-    .curriculo a {
-        width: 47%;
-        height: 70%;
-        border-radius: 10px;
+        justify-content: space-around;
     }
 
     .curriculo button {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-        font-size: 1rem;
-        cursor: pointer;
-        background: none;
-        border: none;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-
+        width: 48%;
+        height: 80%;
     }
 
     .contatos {
         width: 50%;
-        height: 75%;
+        height: 90%;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        gap: 4px;
     }
 
-    .icon {
-        width: 45px;
-        height: 45px;
+    .icons {
+        border: solid 1px #000;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-
-    }
-
-    .icon img {
-        width: 100%;
-        height: 100%;
     }
 }
 
@@ -854,132 +584,80 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
-
     }
 
-    .container_sobre {
+    .sobre_mim {
         width: 90%;
-        height: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .img {
-        width: 35%;
-        height: 80%;
-        border-radius: 10%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 10%;
-    }
-
-    .descricao {
-        width: 55%;
         height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 5px;
     }
 
-    .title {
-        width: 90%;
+    .titulo {
+        width: 100%;
         height: 15%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .title h2 {
-        font-size: 2.5rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+    .titulo h2 {
+        font-size: 2.9rem;
     }
 
-    .sobremim {
-        width: 90%;
-        height: 64%;
-        text-align: justify;
+    .descricao {
+        width: 100%;
+        height: 72%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .sobremim p {
-        width: 95%;
-        font-size: 1rem;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    .descricao p {
+        width: 90%;
+        font-size: 1.3rem;
+        text-align: center;
+        line-height: 26px;
     }
 
-    .redes {
+    .redes_sociais {
         width: 90%;
-        height: 18%;
+        height: 13%;
+        display: flex;
+        align-items: center;
+    }
+
+    .curriculo {
+        width: 50%;
+        height: 90%;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 10px;
     }
 
-
-    .curriculo {
-        width: 45%;
-        height: 80%;
-        border-radius: 10px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-
-    }
-
-    .curriculo a {
-        width: 47%;
-        height: 70%;
-        border-radius: 10px;
-    }
-
     .curriculo button {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-        font-size: 1rem;
-        cursor: pointer;
-        background: none;
-        border: none;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-
+        width: 40%;
+        height: 85%;
     }
 
     .contatos {
         width: 50%;
-        height: 75%;
+        height: 90%;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        gap: 10px;
     }
 
-    .icon {
-        width: 45px;
-        height: 45px;
+    .icons {
+        border: solid 1px #000;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-
-    }
-
-    .icon img {
-        width: 100%;
-        height: 100%;
     }
 }
 
@@ -994,39 +672,16 @@
 
     }
 
-    .container_sobre {
+    .sobre_mim {
         width: 90%;
-        height: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .img {
-        width: 30%;
-        height: 80%;
-        border-radius: 10%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 10%;
-    }
-
-    .descricao {
-        width: 50%;
         height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 5px;
     }
 
-    .title {
+    .titulo {
         width: 90%;
         height: 15%;
         display: flex;
@@ -1034,89 +689,58 @@
         justify-content: center;
     }
 
-    .title h2 {
-        font-size: 3.5rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+    .titulo h2 {
+        font-size: 3.3rem;
     }
 
-    .sobremim {
+    .descricao {
         width: 90%;
-        height: 64%;
-        text-align: justify;
+        height: 68%;
         display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .sobremim p {
-        width: 95%;
-        font-size: 1.4rem;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-        line-height: 25px;
-    }
-
-    .redes {
-        width: 90%;
-        height: 18%;
-        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 10px;
     }
 
+    .descricao p {
+        width: 70%;
+        font-size: 1.6rem;
+        text-align: center;
+    }
 
-    .curriculo {
-        width: 45%;
-        height: 70%;
-        border-radius: 10px;
+    .redes_sociais {
+        width: 90%;
+        height: 17%;
         display: flex;
-        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .curriculo,
+    .contatos {
+        width: 30%;
+        height: 70%;
+        display: flex;
         align-items: center;
         justify-content: center;
         gap: 4px;
-
-    }
-
-    .curriculo a {
-        width: 47%;
-        height: 80%;
-        border-radius: 10px;
     }
 
     .curriculo button {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
+        width: 200px;
+        height: 60px;
+    }
+
+    .curriculo button a {
         font-size: 1.2rem;
-        cursor: pointer;
-        background: none;
-        border: none;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-
     }
 
-    .contatos {
-        width: 50%;
-        height: 70%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-    }
-
-    .icon {
-        width: 70px;
-        height: 70px;
+    .icons {
+        border: solid 1px #000;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-
-    }
-
-    .icon img {
-        width: 100%;
-        height: 100%;
     }
 }
 

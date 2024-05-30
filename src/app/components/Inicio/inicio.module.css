@@ -1,7 +1,7 @@
 @media (min-width: 320px) and (max-width: 419px) {
     .container {
         height: 100vh;
-        background-image: url(../../../../public/img/header\ copy.jpg);
+        background-image: url(../../../../public/img/tec.gif);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -14,7 +14,7 @@
     }
 
     .inicio {
-        width: 95%;
+        width: 99%;
         height: 85%;
         display: flex;
         flex-direction: column;
@@ -25,17 +25,17 @@
     .img {
         width: 290px;
         height: 290px;
-        border-radius: 40%;
+        border-radius: 50%;
     }
 
     .img img {
         width: 100%;
         height: 100%;
-        border-radius: 40%;
+        border-radius: 50%;
     }
 
     .apresentacao {
-        width: 95%;
+        width: 100%;
         height: 20%;
         display: flex;
         flex-direction: column;
@@ -75,28 +75,21 @@
 
     .redes a {
         width: 35%;
-        height: 50px;
+        height: 40px;
     }
 
     .redes a button {
-        border: none;
         width: 100%;
         height: 100%;
-        border-radius: 10px;
-        background: none;
         text-transform: uppercase;
         cursor: pointer;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        background: #eeedec;
-
-
     }
 }
 
 @media (min-width: 420px) and (max-width: 530px) {
     .container {
         height: 100vh;
-        background-image: url(../../../../public/img/header\ copy.jpg);
+        background-image: url(../../../../public/img/tec.gif);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -107,7 +100,7 @@
     }
 
     .inicio {
-        width: 95%;
+        width: 98%;
         height: 85%;
         display: flex;
         flex-direction: column;
@@ -116,204 +109,19 @@
     }
 
     .img {
-        width: 290px;
-        height: 290px;
-        border-radius: 40%;
+        width: 310px;
+        height: 310px;
+        border-radius: 50%;
     }
 
     .img img {
         width: 100%;
         height: 100%;
-        border-radius: 40%;
+        border-radius: 50%;
     }
 
     .apresentacao {
-        width: 95%;
-        height: 20%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .titulo {
-        width: 100%;
-        height: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.5rem;
-        color: #fff;
-    }
-
-    .subtitle {
-        width: 100%;
-        height: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 1.2rem;
-        color: #fff;
-        gap: 4px;
-    }
-
-    .redes {
-        width: 95%;
-        height: 10%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .redes a {
-        width: 35%;
-        height: 50px;
-    }
-
-    .redes a button {
-        border: none;
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-        background: none;
-        text-transform: uppercase;
-        cursor: pointer;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-        background: #eeedec;
-
-
-    }
-}
-
-@media (min-width: 531px) and (max-width: 650px) {
-    .container {
-        height: 100vh;
-        background-image: url(../../../../public/img/header\ copy.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-attachment: fixed;
-    }
-
-    .inicio {
-        width: 95%;
-        height: 85%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .img {
-        width: 290px;
-        height: 290px;
-        border-radius: 40%;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 40%;
-    }
-
-    .apresentacao {
-        width: 95%;
-        height: 20%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .titulo {
-        width: 100%;
-        height: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.5rem;
-        color: #fff;
-    }
-
-    .subtitle {
-        width: 100%;
-        height: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 1.2rem;
-        color: #fff;
-        gap: 4px;
-    }
-
-    .redes {
-        width: 95%;
-        height: 10%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .redes a {
-        width: 35%;
-        height: 50px;
-    }
-
-    .redes a button {
-        border: none;
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-        background: none;
-        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(39, 15, 82, 1) 0%, rgba(7, 6, 18, 1) 0%, rgba(8, 2, 34, 1) 33%, rgba(125, 120, 157, 1) 100%);
-        box-shadow: rgb(255, 251, 251) 0px 30px 60px -12px inset, rgba(241, 238, 238, 0.952) 0px 18px 36px -18px inset;
-        text-transform: uppercase;
-        color: #fff;
-        cursor: pointer;
-    }
-}
-
-@media (min-width: 651px) and (max-width: 700px) {
-    .container {
-        height: 100vh;
-        background-image: url(../../../../public/img/header\ copy.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-attachment: fixed;
-    }
-
-    .inicio {
-        width: 95%;
-        height: 85%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .img {
-        width: 300px;
-        height: 300px;
-        border-radius: 40%;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 40%;
-    }
-
-    .apresentacao {
-        width: 95%;
+        width: 99%;
         height: 20%;
         display: flex;
         flex-direction: column;
@@ -343,6 +151,178 @@
     }
 
     .redes {
+        width: 99%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .redes a {
+        width: 37%;
+        height: 45px;
+    }
+
+    .redes a button {
+        width: 100%;
+        height: 100%;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 531px) and (max-width: 650px) {
+    .container {
+        height: 100vh;
+        background-image: url(../../../../public/img/tec.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-attachment: fixed;
+    }
+
+    .inicio {
+        width: 99%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img {
+        width: 340px;
+        height: 340px;
+        border-radius: 50%;
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .apresentacao {
+        width: 99%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        color: #fff;
+    }
+
+    .subtitle {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem;
+        color: #fff;
+        gap: 4px;
+    }
+
+    .redes {
+        width: 99%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .redes a {
+        width: 36%;
+        height: 45px;
+    }
+
+    .redes a button {
+        width: 100%;
+        height: 100%;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 700px) {
+    .container {
+        height: 100vh;
+        background-image: url(../../../../public/img/tec.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-attachment: fixed;
+    }
+
+    .inicio {
+        width: 99%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img {
+        width: 380px;
+        height: 380px;
+        border-radius: 50%;
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .apresentacao {
+        width: 99%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.1rem;
+        color: #fff;
+    }
+
+    .subtitle {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.7rem;
+        color: #fff;
+        gap: 4px;
+    }
+
+    .redes {
         width: 80%;
         height: 10%;
         display: flex;
@@ -357,15 +337,9 @@
     }
 
     .redes a button {
-        border: none;
         width: 100%;
         height: 100%;
-        border-radius: 10px;
-        background: none;
-        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(39, 15, 82, 1) 0%, rgba(7, 6, 18, 1) 0%, rgba(8, 2, 34, 1) 33%, rgba(125, 120, 157, 1) 100%);
-        box-shadow: rgb(255, 251, 251) 0px 30px 60px -12px inset, rgba(241, 238, 238, 0.952) 0px 18px 36px -18px inset;
         text-transform: uppercase;
-        color: #fff;
         cursor: pointer;
     }
 }
@@ -374,7 +348,7 @@
 
     .container {
         height: 100vh;
-        background-image: url(../../../../public/img/header\ copy.jpg);
+        background-image: url(../../../../public/img/tec.gif);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -385,7 +359,7 @@
     }
 
     .inicio {
-        width: 95%;
+        width: 99%;
         height: 85%;
         display: flex;
         flex-direction: column;
@@ -394,19 +368,20 @@
     }
 
     .img {
-        width: 300px;
-        height: 300px;
-        border-radius: 40%;
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
     }
 
     .img img {
         width: 100%;
         height: 100%;
-        border-radius: 40%;
+        border-radius: 50%;
     }
 
+
     .apresentacao {
-        width: 95%;
+        width: 99%;
         height: 20%;
         display: flex;
         flex-direction: column;
@@ -420,7 +395,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.7rem;
+        font-size: 2.2rem;
         color: #fff;
     }
 
@@ -430,7 +405,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         color: #fff;
         gap: 4px;
     }
@@ -445,20 +420,14 @@
     }
 
     .redes a {
-        width: 35%;
-        height: 44px;
+        width: 37%;
+        height: 48px;
     }
 
     .redes a button {
-        border: none;
         width: 100%;
         height: 100%;
-        border-radius: 10px;
-        background: none;
-        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(39, 15, 82, 1) 0%, rgba(7, 6, 18, 1) 0%, rgba(8, 2, 34, 1) 33%, rgba(125, 120, 157, 1) 100%);
-        box-shadow: rgb(255, 251, 251) 0px 30px 60px -12px inset, rgba(241, 238, 238, 0.952) 0px 18px 36px -18px inset;
         text-transform: uppercase;
-        color: #fff;
         cursor: pointer;
     }
 
@@ -467,7 +436,7 @@
 @media (min-width: 851px) and (max-width: 1024px) {
     .container {
         height: 100vh;
-        background-image: url(../../../../public/img/header\ copy.jpg);
+        background-image: url(../../../../public/img/tec.gif);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -490,15 +459,15 @@
     }
 
     .img {
-        width: 280px;
-        height: 280px;
-        border-radius: 40%;
+        width: 380px;
+        height: 380px;
+        border-radius: 50%;
     }
 
     .img img {
         width: 100%;
         height: 100%;
-        border-radius: 40%;
+        border-radius: 50%;
     }
 
     .apresentacao {
@@ -511,12 +480,12 @@
     }
 
     .titulo {
-        width: 90%;
+        width: 100%;
         height: 40%;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.9rem;
+        font-size: 2.4rem;
         color: #fff;
 
     }
@@ -528,7 +497,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        font-size: 1.3rem;
+        font-size: 1.7rem;
         color: #fff;
     }
 
@@ -542,27 +511,21 @@
     }
 
     .redes a {
-        width: 30%;
-        height: 42px;
+        width: 49%;
+        height: 50px;
     }
 
     .redes a button {
-        border: none;
         width: 100%;
         height: 100%;
-        border-radius: 10px;
-        background: #eeedec;
-        text-transform: uppercase;
-        font-size: 0.8rem;
         cursor: pointer;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     }
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
     .container {
         height: 100vh;
-        background-image: url(../../../../public/img/header\ copy.jpg);
+        background-image: url(../../../../public/img/tec.gif);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -585,19 +548,19 @@
     }
 
     .img {
-        width: 280px;
-        height: 280px;
-        border-radius: 40%;
+        width: 380px;
+        height: 380px;
+        border-radius: 50%;
     }
 
     .img img {
         width: 100%;
         height: 100%;
-        border-radius: 40%;
+        border-radius: 50%;
     }
 
     .apresentacao {
-        width: 50%;
+        width: 70%;
         height: 27%;
         display: flex;
         flex-direction: column;
@@ -606,29 +569,30 @@
     }
 
     .titulo {
-        width: 90%;
+        width: 100%;
         height: 40%;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 1.9rem;
+        font-size: 2.5rem;
         color: #fff;
 
     }
 
     .subtitle {
-        width: 90%;
+        border: solid 1px #0000;
+        width: 100%;
         height: 40%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        font-size: 1.3rem;
+        font-size: 1.7rem;
         color: #fff;
     }
 
     .redes {
-        width: 50%;
+        width: 70%;
         height: 10%;
         display: flex;
         align-items: center;
@@ -638,26 +602,21 @@
 
     .redes a {
         width: 30%;
-        height: 42px;
+        height: 50px;
     }
 
     .redes a button {
-        border: none;
         width: 100%;
         height: 100%;
-        border-radius: 10px;
-        background: #eeedec;
         text-transform: uppercase;
-        font-size: 0.8rem;
         cursor: pointer;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     }
 }
 
 @media (min-width: 1201px) and (max-width: 1600px) {
     .container {
         height: 100vh;
-        background-image: url(../../../../public/img/header\ copy.jpg);
+        background-image: url(../../../../public/img/tec.gif);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -676,19 +635,18 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 2px;
     }
 
     .img {
-        width: 290px;
-        height: 290px;
-        border-radius: 40%;
+        width: 310px;
+        height: 310px;
+        border-radius: 50%;
     }
 
     .img img {
         width: 100%;
         height: 100%;
-        border-radius: 40%;
+        border-radius: 50%;
     }
 
     .apresentacao {
@@ -697,28 +655,27 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
     }
 
     .titulo {
-        width: 90%;
+        width: 100%;
         height: 40%;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 2rem;
+        font-size: 2.2rem;
         color: #fff;
 
     }
 
     .subtitle {
-        width: 90%;
+        width: 100%;
         height: 40%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         color: #fff;
     }
 
@@ -732,27 +689,22 @@
     }
 
     .redes a {
-        width: 30%;
-        height: 38px;
+        width: 34%;
+        height: 45px;
     }
 
     .redes a button {
-        border: none;
         width: 100%;
         height: 100%;
-        border-radius: 10px;
-        background: #eeedec;
         text-transform: uppercase;
-        font-size: 1rem;
         cursor: pointer;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     }
 }
 
 @media (min-width: 1601px) and (max-width: 1900px) {
     .container {
         height: 100vh;
-        background-image: url(../../../../public/img/header\ copy.jpg);
+        background-image: url(../../../../public/img/tec.gif);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -762,6 +714,7 @@
         background-attachment: fixed;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-weight: 900;
+
     }
 
     .inicio {
@@ -775,15 +728,15 @@
     }
 
     .img {
-        width: 350px;
-        height: 350px;
-        border-radius: 40%;
+        width: 370px;
+        height: 370px;
+        border-radius: 50%;
     }
 
     .img img {
         width: 100%;
         height: 100%;
-        border-radius: 40%;
+        border-radius: 50%;
     }
 
     .apresentacao {
@@ -801,7 +754,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         color: #fff;
     }
 
@@ -812,7 +765,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         color: #fff;
     }
 
@@ -834,12 +787,7 @@
         border: none;
         width: 100%;
         height: 100%;
-        border-radius: 10px;
-        background: #eeedec;
-        text-transform: uppercase;
-        font-size: 1rem;
         cursor: pointer;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     }
 
 }

@@ -5,7 +5,7 @@ export default function Inicio() {
         <section className={Styles.container}>
             <div className={Styles.inicio}>
                 <div className={Styles.img}>
-                    <img src="/img/avatar.png" />
+                    <img className={Styles.filter} src="/img/eu.png" />
                 </div>
                 <div className={Styles.apresentacao}>
                     <div className={Styles.titulo}>

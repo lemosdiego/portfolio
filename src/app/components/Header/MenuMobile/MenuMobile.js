@@ -1,4 +1,5 @@
 'use client';
+import { useEffect } from 'react';
 import Styles from "./menumobile.module.css"
 
 export default function MenuMobile() {
@@ -13,6 +14,8 @@ export default function MenuMobile() {
         menuNav.style.backgroundColor = "#eeedec"
         menuNav.style.opacity = "0.8"
         menuNav.style.boxShadow = "rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;"
+        document.addEventListener('click', clickIndentificador);
+
     }
     const fecharMenu = () => {
         let menuClose = document.getElementById("navegacao")
@@ -23,7 +26,26 @@ export default function MenuMobile() {
         svgmenuclose.style.display = "none"
         open.style.display = "block"
         menuNav.style.background = "none"
+        document.removeEventListener('click', clickIndentificador)
     }
+    const clickIndentificador = (event) => {
+        const nav = document.getElementById("nav")
+        if (nav && !nav.contains(event.target)) {
+            fecharMenu()
+        }
+    }
+    useEffect(() => {
+        const links = document.querySelectorAll('#navegacao a')
+        links.forEach(link => {
+            link.addEventListener('click', fecharMenu)
+        })
+        return () => {
+            links.forEach(link => {
+                link.removeEventListener('click', fecharMenu)
+            })
+            document.removeEventListener('click', clickIndentificador)
+        }
+    }, [])
     return (
         <div className={Styles.container}>
 
@@ -46,4 +68,4 @@ export default function MenuMobile() {
             </nav>
         </div>
     )
-}
+} 

@@ -3,36 +3,29 @@ import Styles from "./sobre.module.css"
 export default function Sobre() {
     return (
         <section className={Styles.container} id="sobre">
-            <div className={Styles.container_sobre}>
-                <div className={Styles.img}>
-                    <img src="/img/eu.png" />
+            <div className={Styles.sobre_mim}>
+                <div className={Styles.titulo}>
+                    <h2>Sobre mim</h2>
                 </div>
                 <div className={Styles.descricao}>
-                    <div className={Styles.title}>
-                        <h2>Sobre mim</h2>
+                    <p>Meu nome é Washington e sou formado em Análise e Desenvolvimento de Sistemas. Atualmente, estou aprofundando meus conhecimentos estudando Engenharia de Software e Desenvolvimento Full Stack. Estou sempre em busca de novos desafios e oportunidades para expandir minhas habilidades na área de tecnologia.</p>
+                    <p>Nos meus momentos livres, adoro viajar e conhecer novas culturas. Viajar me proporciona uma visão mais ampla do mundo e me enriquece com novas experiências. Também sou um grande fã de futebol, tanto jogando quanto assistindo. Além disso, gosto muito de fazer trilhas e estar em contato com a natureza, o que me ajuda a relaxar e recarregar as energias. Outro hobby que curto bastante é jogar games, especialmente aqueles com a temática de battlegrounds, onde posso me divertir e testar minhas habilidades estratégicas.</p>
+                    <p>Meu objetivo principal é conseguir uma oportunidade na área de programação, seja como estagiário ou em uma posição júnior. Estou determinado a aplicar todo o conhecimento que adquiri até agora e ansioso para começar minha carreira na área de tecnologia. Realizar esse objetivo é essencial para que eu possa alcançar meus sonhos e construir uma carreira de sucesso.</p>
+                </div>
+                <div className={Styles.redes_sociais}>
+                    <div className={Styles.curriculo}>
+                        <button><a>curriculo</a></button>
+                        <button><a>Certificados</a></button>
                     </div>
-                    <div className={Styles.sobremim}>
-                        <p>Sou um profissional apaixonado por tecnologia e inovação, com uma sólida formação em Análise e Desenvolvimento de Sistemas. Atualmente, estou focado em aprimorar minhas habilidades em Engenharia de Software e no desenvolvimento Full Stack. Resido entre Recife e São Paulo, duas cidades vibrantes que me proporcionam uma perspectiva diversificada do mercado de tecnologia. Curto muito games, futebol, viajar e estar sempre em contato com a natureza. Estou atualmente em busca de oportunidades de estágio ou posição júnior na área de desenvolvimento de software, onde posso aplicar minhas habilidades técnicas, aprender e crescer profissionalmente. Estou pronto para enfrentar novos desafios e contribuir para projetos inovadores que impactem positivamente a vida das pessoas. Se você está em busca de um profissional dedicado, apaixonado pela tecnologia e comprometido com o crescimento pessoal e profissional, estou pronto para fazer parte da sua equipe.</p>
-                    </div>
-                    <div className={Styles.redes}>
-                        <div className={Styles.curriculo}>
-                            <a href="" download><button>Curriculo</button></a>
-                            <a href="https://drive.google.com/drive/folders/1zDTjqRBDQOFBmYn4MCzDyF1tl_CG-VV8?usp=drive_link" target="blank"><button>Certificados</button></a>
+                    <div className={Styles.contatos}>
+                        <div className={Styles.icons}>
+
                         </div>
-                        <div className={Styles.contatos}>
-                            <div className={Styles.icon}>
-                                <a href="https://WA.me/5581982383803" target="_blank">
-                                    <img src="/img/whats.svg" />
-                                </a>
-                            </div>
-                            <div className={Styles.icon}>
-                                <a href="https://ig.me/m/washington.lemos_" target="blank">
-                                    <img src="/img/messenger.svg" />
-                                </a>
-                            </div>
-                            <div className={Styles.icon}>
-                                <img src="/img/tele.svg" />
-                            </div>
+                        <div className={Styles.icons}>
+
+                        </div>
+                        <div className={Styles.icons}>
+
                         </div>
                     </div>
                 </div>

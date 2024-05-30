@@ -9,10 +9,8 @@
 }
 
 body {
-  background-size: cover;
-  background-clip: center;
   overflow-x: hidden;
-
+  background: #eeedec;
 }
 
 
