@@ -5,6 +5,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
     }
 
     .sobre_mim {
@@ -668,8 +669,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
-
+        background: #F5F5F5;
+        color: #333333;
     }
 
     .sobre_mim {

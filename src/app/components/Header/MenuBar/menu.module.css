@@ -52,7 +52,7 @@
 
     .nav ul li a {
         font-size: 1.3rem;
-        color: #fff;
+        color: #F5F5F5;
         text-decoration: none;
         font-weight: 900;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
@@ -88,7 +88,7 @@
 
     .nav ul li a {
         font-size: 1.4rem;
-        color: #fff;
+        color: #F5F5F5;
         text-decoration: none;
         font-weight: 900;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
@@ -124,10 +124,10 @@
 
     .nav ul li a {
         font-size: 1.5rem;
-        color: #fff;
         text-decoration: none;
         font-weight: 900;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        color: #F5F5F5;
 
     }
 
@@ -160,7 +160,7 @@
 
     .nav ul li a {
         font-size: 1.6rem;
-        color: #fff;
+        color: #F5F5F5;
         text-decoration: none;
         font-weight: 900;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);

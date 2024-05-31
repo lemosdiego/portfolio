@@ -5,107 +5,104 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
+        background-color: #7D7D7D;
 
     }
 
     .ferramentas {
-        width: 95%;
-        height: 95%;
+        width: 98%;
+        height: 98%;
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         justify-content: center;
     }
 
     .title_hard {
-        width: 95%;
-        height: 8%;
-        font-size: 1.6rem;
+        width: 100%;
+        height: 6%;
         display: flex;
         align-items: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+        justify-content: center;
     }
 
-    .hard_skills {
-        width: 99%;
-        height: 50%;
+    .title_hard h2 {
+        font-size: 2rem;
+    }
+
+    .container_hard {
+        width: 95%;
+        height: 68%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
     }
 
-    .container_icons {
-        width: 90px;
-        height: 95px;
+    .hard {
+        width: 80%;
+        height: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hard ul {
+        background-color: #BFBFBF;
+        border-radius: 10px;
+        width: 90%;
+        height: 95%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        gap: 2px;
+        justify-content: space-evenly;
     }
 
-    .icones {
-        width: 60px;
-        height: 60px;
-        border-radius: 30%;
-    }
-
-    .icones img {
-        width: 100%;
-        height: 100%;
-        border-radius: 30%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-
-    }
-
-    .texto {
-        width: 100%;
-        height: 30px;
-        font-size: 0.8rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 800;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+    .hard ul li {
+        font-size: 0.9rem;
     }
 
     .title_soft {
-        width: 90%;
-        height: 8%;
-        font-size: 1.6rem;
-        display: flex;
-        align-items: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-    .soft_skills {
-        width: 99%;
-        height: 30%;
+        width: 100%;
+        height: 6%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .soft_skills ul {
-        width: 80%;
+    .title_soft h2 {
+        font-size: 2rem;
+    }
+
+    .container_soft {
+        width: 95%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soft {
+        width: 100%;
+        height: 98%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soft ul {
+        background-color: #BFBFBF;
+        border-radius: 10px;
+        width: 70%;
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
-        list-style: square;
     }
 
-    .soft_skills ul li {
-        font-size: 1.3rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        box-shadow: rgba(228, 223, 223, 0.747) 0px 22px 70px 4px;
-
+    .soft ul li {
+        font-size: 0.8rem;
     }
 }
 
@@ -116,7 +113,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
+        background-color: #7D7D7D;
 
     }
 
@@ -124,99 +121,96 @@
         width: 98%;
         height: 98%;
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         justify-content: center;
     }
 
     .title_hard {
-        width: 94%;
-        height: 8%;
-        font-size: 1.6rem;
+        width: 100%;
+        height: 6%;
         display: flex;
         align-items: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+        justify-content: center;
     }
 
-    .hard_skills {
-        width: 99%;
-        height: 53%;
+    .title_hard h2 {
+        font-size: 2rem;
+    }
+
+    .container_hard {
+        width: 95%;
+        height: 68%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
     }
 
-    .container_icons {
-        width: 90px;
-        height: 95px;
+    .hard {
+        width: 70%;
+        height: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hard ul {
+        background-color: #BFBFBF;
+        border-radius: 10px;
+        width: 90%;
+        height: 95%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        gap: 2px;
+        justify-content: space-evenly;
     }
 
-    .icones {
-        width: 50px;
-        height: 50px;
-        border-radius: 30%;
-    }
-
-    .icones img {
-        width: 100%;
-        height: 100%;
-        border-radius: 30%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-
-    }
-
-    .texto {
-        width: 100%;
-        height: 30px;
-        font-size: 0.8rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 800;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+    .hard ul li {
+        font-size: 0.9rem;
     }
 
     .title_soft {
-        width: 94%;
-        height: 8%;
-        font-size: 1.6rem;
-        display: flex;
-        align-items: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-    .soft_skills {
-        width: 99%;
-        height: 30%;
+        width: 100%;
+        height: 6%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .soft_skills ul {
-        width: 80%;
+    .title_soft h2 {
+        font-size: 2rem;
+    }
+
+    .container_soft {
+        width: 95%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soft {
+        width: 100%;
+        height: 98%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soft ul {
+        background-color: #BFBFBF;
+        border-radius: 10px;
+        width: 60%;
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
-        list-style: square;
     }
 
-    .soft_skills ul li {
-        font-size: 1.2rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        box-shadow: rgba(228, 223, 223, 0.747) 0px 22px 70px 4px;
-
+    .soft ul li {
+        font-size: 0.8rem;
     }
 }
 
@@ -227,7 +221,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
+        background-color: #7D7D7D;
 
     }
 
@@ -235,99 +229,96 @@
         width: 98%;
         height: 98%;
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         justify-content: center;
     }
 
     .title_hard {
-        width: 94%;
-        height: 8%;
-        font-size: 1.6rem;
+        width: 100%;
+        height: 6%;
         display: flex;
         align-items: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+        justify-content: center;
     }
 
-    .hard_skills {
-        width: 99%;
-        height: 53%;
+    .title_hard h2 {
+        font-size: 2rem;
+    }
+
+    .container_hard {
+        width: 95%;
+        height: 68%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
     }
 
-    .container_icons {
-        width: 90px;
-        height: 95px;
+    .hard {
+        width: 50%;
+        height: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hard ul {
+        background-color: #BFBFBF;
+        border-radius: 10px;
+        width: 90%;
+        height: 95%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        gap: 2px;
+        justify-content: space-evenly;
     }
 
-    .icones {
-        width: 50px;
-        height: 50px;
-        border-radius: 30%;
-    }
-
-    .icones img {
-        width: 100%;
-        height: 100%;
-        border-radius: 30%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-
-    }
-
-    .texto {
-        width: 100%;
-        height: 30px;
-        font-size: 0.8rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 800;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+    .hard ul li {
+        font-size: 1rem;
     }
 
     .title_soft {
-        width: 94%;
-        height: 8%;
-        font-size: 1.6rem;
-        display: flex;
-        align-items: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-    .soft_skills {
-        width: 99%;
-        height: 30%;
+        width: 100%;
+        height: 6%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .soft_skills ul {
-        width: 80%;
+    .title_soft h2 {
+        font-size: 2rem;
+    }
+
+    .container_soft {
+        width: 95%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soft {
+        width: 100%;
+        height: 98%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soft ul {
+        background-color: #BFBFBF;
+        border-radius: 10px;
+        width: 45%;
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
-        list-style: square;
     }
 
-    .soft_skills ul li {
-        font-size: 1.2rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        box-shadow: rgba(228, 223, 223, 0.747) 0px 22px 70px 4px;
-
+    .soft ul li {
+        font-size: 0.9rem;
     }
 }
 
@@ -338,7 +329,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
+        background-color: #7D7D7D;
 
     }
 
@@ -346,99 +337,96 @@
         width: 98%;
         height: 98%;
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         justify-content: center;
     }
 
     .title_hard {
-        width: 94%;
-        height: 8%;
-        font-size: 1.6rem;
+        width: 100%;
+        height: 6%;
         display: flex;
         align-items: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+        justify-content: center;
     }
 
-    .hard_skills {
-        width: 99%;
-        height: 53%;
+    .title_hard h2 {
+        font-size: 2rem;
+    }
+
+    .container_hard {
+        width: 95%;
+        height: 68%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
     }
 
-    .container_icons {
-        width: 90px;
-        height: 95px;
+    .hard {
+        width: 50%;
+        height: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hard ul {
+        background-color: #BFBFBF;
+        border-radius: 10px;
+        width: 90%;
+        height: 95%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        gap: 2px;
+        justify-content: space-evenly;
     }
 
-    .icones {
-        width: 50px;
-        height: 50px;
-        border-radius: 30%;
-    }
-
-    .icones img {
-        width: 100%;
-        height: 100%;
-        border-radius: 30%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-
-    }
-
-    .texto {
-        width: 100%;
-        height: 30px;
-        font-size: 0.8rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 800;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+    .hard ul li {
+        font-size: 1.1rem;
     }
 
     .title_soft {
-        width: 94%;
-        height: 8%;
-        font-size: 1.6rem;
-        display: flex;
-        align-items: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-    .soft_skills {
-        width: 99%;
-        height: 30%;
+        width: 100%;
+        height: 6%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .soft_skills ul {
-        width: 80%;
+    .title_soft h2 {
+        font-size: 2rem;
+    }
+
+    .container_soft {
+        width: 95%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soft {
+        width: 100%;
+        height: 98%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soft ul {
+        background-color: #BFBFBF;
+        border-radius: 10px;
+        width: 45%;
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
-        list-style: square;
     }
 
-    .soft_skills ul li {
-        font-size: 1.2rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        box-shadow: rgba(228, 223, 223, 0.747) 0px 22px 70px 4px;
-
+    .soft ul li {
+        font-size: 1rem;
     }
 }
 
@@ -449,448 +437,104 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
+        background-color: #7D7D7D;
+
     }
 
     .ferramentas {
         width: 98%;
-        height: 80%;
+        height: 98%;
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         justify-content: center;
-        gap: 4px;
     }
 
     .title_hard {
-        width: 98%;
-        height: 8%;
-        display: flex;
-        align-items: center;
-        font-size: 1.7rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-
-    .hard_skills {
-        width: 98%;
-        height: 50%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-    }
-
-    .container_icons {
-        width: 110px;
-        height: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 2px;
-    }
-
-    .icones {
-        width: 50px;
-        height: 50px;
-        border-radius: 30%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    }
-
-    .icones img {
         width: 100%;
-        height: 100%;
-        border-radius: 30%;
-    }
-
-    .texto {
-        width: 99%;
-        height: 30px;
-        font-weight: 800;
-        font-size: 0.9rem;
-        border-radius: 10px;
+        height: 6%;
         display: flex;
         align-items: center;
         justify-content: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
     }
 
-    .title_soft {
-        width: 98%;
-        height: 8%;
-        display: flex;
-        align-items: center;
-        font-size: 1.7rem;
-        font-weight: 800;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+    .title_hard h2 {
+        font-size: 2rem;
     }
 
-    .soft_skills {
-        width: 98%;
-        height: 20%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .soft_skills ul {
-        width: 99%;
-        height: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        list-style: square;
-    }
-
-    .soft_skills ul li {
-        font-size: 1.1rem;
-        box-shadow: rgba(228, 223, 223, 0.747) 0px 22px 70px 4px;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    }
-}
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-    .Container_ferramentas {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #eeedec;
-    }
-
-    .ferramentas {
+    .container_hard {
         width: 95%;
-        height: 80%;
+        height: 68%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-    }
-
-    .title_hard {
-        width: 90%;
-        height: 8%;
-        display: flex;
-        align-items: center;
-        font-size: 1.7rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-
-    .hard_skills {
-        width: 90%;
-        height: 50%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-    }
-
-    .container_icons {
-        width: 110px;
-        height: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 2px;
-    }
-
-    .icones {
-        width: 50px;
-        height: 50px;
-        border-radius: 30%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    }
-
-    .icones img {
-        width: 100%;
-        height: 100%;
-        border-radius: 30%;
-    }
-
-    .texto {
-        width: 99%;
-        height: 30px;
-        font-weight: 800;
-        font-size: 0.9rem;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-    .title_soft {
-        width: 90%;
-        height: 8%;
-        display: flex;
-        align-items: center;
-        font-size: 1.7rem;
-        font-weight: 800;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-    .soft_skills {
-        width: 90%;
-        height: 20%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .soft_skills ul {
-        width: 99%;
-        height: 80%;
-        display: flex;
         align-items: center;
         justify-content: space-evenly;
-        list-style: square;
     }
 
-    .soft_skills ul li {
-        font-size: 1.2rem;
-        box-shadow: rgba(228, 223, 223, 0.747) 0px 22px 70px 4px;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    }
-}
-
-@media (min-width: 1201px) and (max-width: 1600px) {
-    .Container_ferramentas {
-        width: 100%;
-        height: 100vh;
+    .hard {
+        width: 50%;
+        height: 33%;
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
     }
 
-    .ferramentas {
-        width: 90%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-    }
-
-    .title_hard {
-        width: 90%;
-        height: 8%;
-        display: flex;
-        align-items: center;
-        font-size: 1.7rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-
-    .hard_skills {
-        width: 80%;
-        height: 50%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-    }
-
-    .container_icons {
-        width: 110px;
-        height: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 2px;
-    }
-
-    .icones {
-        width: 50px;
-        height: 50px;
-        border-radius: 30%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    }
-
-    .icones img {
-        width: 100%;
-        height: 100%;
-        border-radius: 30%;
-    }
-
-    .texto {
-        width: 99%;
-        height: 30px;
-        font-weight: 800;
-        font-size: 0.9rem;
+    .hard ul {
+        background-color: #BFBFBF;
         border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-    .title_soft {
         width: 90%;
-        height: 8%;
+        height: 90%;
         display: flex;
-        align-items: center;
-        font-size: 1.7rem;
-        font-weight: 800;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-    .soft_skills {
-        width: 80%;
-        height: 20%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .soft_skills ul {
-        width: 99%;
-        height: 80%;
-        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        list-style: square;
     }
 
-    .soft_skills ul li {
+    .hard ul li {
         font-size: 1.1rem;
-        box-shadow: rgba(228, 223, 223, 0.747) 0px 22px 70px 4px;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    }
-}
-
-@media (min-width: 1601px) and (max-width: 1900px) {
-    .Container_ferramentas {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #eeedec;
-    }
-
-    .ferramentas {
-        width: 90%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-    }
-
-    .title_hard {
-        width: 90%;
-        height: 8%;
-        display: flex;
-        align-items: center;
-        font-size: 2rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-
-    .hard_skills {
-        width: 80%;
-        height: 50%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 4px;
-    }
-
-    .container_icons {
-        width: 160px;
-        height: 170px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 2px;
-    }
-
-    .icones {
-        width: 80px;
-        height: 80px;
-        border-radius: 30%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    }
-
-    .icones img {
-        width: 100%;
-        height: 100%;
-        border-radius: 30%;
-    }
-
-    .texto {
-        width: 99%;
-        height: 30px;
-        font-weight: 800;
-        font-size: 1.1rem;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
     }
 
     .title_soft {
-        width: 90%;
-        height: 8%;
+        width: 100%;
+        height: 6%;
         display: flex;
         align-items: center;
-        font-size: 2rem;
-        font-weight: 800;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+        justify-content: center;
     }
 
-    .soft_skills {
-        width: 80%;
+    .title_soft h2 {
+        font-size: 2rem;
+    }
+
+    .container_soft {
+        width: 95%;
         height: 20%;
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
 
-    .soft_skills ul {
-        width: 99%;
-        height: 80%;
+    .soft {
+        width: 100%;
+        height: 98%;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        list-style: square;
+        justify-content: center;
     }
 
-    .soft_skills ul li {
-        font-size: 1.6rem;
-        box-shadow: rgba(228, 223, 223, 0.747) 0px 22px 70px 4px;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    .soft ul {
+        background-color: #BFBFBF;
+        border-radius: 10px;
+        width: 45%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .soft ul li {
+        font-size: 1rem;
     }
 }
 
@@ -901,109 +545,103 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
+        background-color: #7D7D7D;
     }
 
     .ferramentas {
-        width: 98%;
+        width: 95%;
         height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 4px;
     }
 
     .title_hard {
-        width: 98%;
-        height: 8%;
+        width: 100%;
+        height: 10%;
         display: flex;
-        align-items: center;
-        font-size: 1.7rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-
-    .hard_skills {
-        width: 98%;
-        height: 50%;
-        display: flex;
-        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 4px;
     }
 
-    .container_icons {
-        width: 110px;
-        height: 120px;
+    .title_hard h2 {
+        font-size: 2.2rem;
+    }
+
+    .container_hard {
+        width: 95%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hard {
+        width: 32%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hard ul {
+        background-color: #BFBFBF;
+        width: 90%;
+        height: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        gap: 2px;
-    }
-
-    .icones {
-        width: 50px;
-        height: 50px;
-        border-radius: 30%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    }
-
-    .icones img {
-        width: 100%;
-        height: 100%;
-        border-radius: 30%;
-    }
-
-    .texto {
-        width: 99%;
-        height: 30px;
-        font-weight: 800;
-        font-size: 0.9rem;
+        justify-content: space-evenly;
         border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    }
 
+    .hard ul li {
+        font-size: 1.2rem;
     }
 
     .title_soft {
-        width: 98%;
-        height: 8%;
+        width: 100%;
+        height: 10%;
         display: flex;
         align-items: center;
-        font-size: 1.7rem;
-        font-weight: 800;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+        justify-content: center;
     }
 
-    .soft_skills {
+    .title_soft h2 {
+        font-size: 2.2rem;
+    }
+
+    .container_soft {
         width: 98%;
         height: 20%;
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
 
-    .soft_skills ul {
-        width: 99%;
-        height: 80%;
+    .soft {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soft ul {
+        border-radius: 10px;
+        background-color: #BFBFBF;
+        width: 100%;
+        height: 90%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        list-style: square;
+        gap: 4px;
     }
 
-    .soft_skills ul li {
+    .soft ul li {
         font-size: 1.1rem;
-        box-shadow: rgba(228, 223, 223, 0.747) 0px 22px 70px 4px;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -1014,120 +652,115 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
+        background-color: #7D7D7D;
     }
 
     .ferramentas {
-        width: 95%;
+        width: 90%;
         height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 4px;
     }
 
     .title_hard {
-        width: 90%;
-        height: 8%;
+        width: 100%;
+        height: 10%;
         display: flex;
-        align-items: center;
-        font-size: 1.7rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-
-    .hard_skills {
-        width: 90%;
-        height: 50%;
-        display: flex;
-        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 4px;
     }
 
-    .container_icons {
-        width: 110px;
-        height: 120px;
+    .title_hard h2 {
+        font-size: 2.3rem;
+    }
+
+    .container_hard {
+        width: 80%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hard {
+        width: 32%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hard ul {
+        background-color: #BFBFBF;
+        width: 95%;
+        height: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        gap: 2px;
-    }
-
-    .icones {
-        width: 50px;
-        height: 50px;
-        border-radius: 30%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    }
-
-    .icones img {
-        width: 100%;
-        height: 100%;
-        border-radius: 30%;
-    }
-
-    .texto {
-        width: 99%;
-        height: 30px;
-        font-weight: 800;
-        font-size: 0.9rem;
+        justify-content: space-evenly;
         border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    }
 
+    .hard ul li {
+        font-size: 1.3rem;
     }
 
     .title_soft {
-        width: 90%;
-        height: 8%;
+        width: 100%;
+        height: 10%;
         display: flex;
         align-items: center;
-        font-size: 1.7rem;
-        font-weight: 800;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+        justify-content: center;
     }
 
-    .soft_skills {
+    .title_soft h2 {
+        font-size: 2.3rem;
+    }
+
+    .container_soft {
         width: 90%;
         height: 20%;
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
 
-    .soft_skills ul {
-        width: 99%;
-        height: 80%;
+    .soft {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soft ul {
+        border-radius: 10px;
+        background-color: #BFBFBF;
+        width: 100%;
+        height: 90%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        list-style: square;
+        gap: 4px;
     }
 
-    .soft_skills ul li {
+    .soft ul li {
         font-size: 1.2rem;
-        box-shadow: rgba(228, 223, 223, 0.747) 0px 22px 70px 4px;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     }
 }
 
 @media (min-width: 1201px) and (max-width: 1600px) {
+
     .Container_ferramentas {
         width: 100%;
         height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
+        background-color: #7D7D7D;
     }
 
     .ferramentas {
@@ -1137,99 +770,93 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 4px;
     }
 
     .title_hard {
-        width: 90%;
-        height: 8%;
+        width: 100%;
+        height: 10%;
         display: flex;
-        align-items: center;
-        font-size: 1.7rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-
-    .hard_skills {
-        width: 80%;
-        height: 50%;
-        display: flex;
-        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 4px;
     }
 
-    .container_icons {
-        width: 110px;
-        height: 120px;
+    .title_hard h2 {
+        font-size: 2.3rem;
+    }
+
+    .container_hard {
+        width: 80%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hard {
+        width: 32%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hard ul {
+        background-color: #BFBFBF;
+        width: 90%;
+        height: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        gap: 2px;
-    }
-
-    .icones {
-        width: 50px;
-        height: 50px;
-        border-radius: 30%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    }
-
-    .icones img {
-        width: 100%;
-        height: 100%;
-        border-radius: 30%;
-    }
-
-    .texto {
-        width: 99%;
-        height: 30px;
-        font-weight: 800;
-        font-size: 0.9rem;
+        justify-content: space-evenly;
         border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    }
 
+    .hard ul li {
+        font-size: 1.4rem;
     }
 
     .title_soft {
-        width: 90%;
-        height: 8%;
+        width: 100%;
+        height: 10%;
         display: flex;
         align-items: center;
-        font-size: 1.7rem;
-        font-weight: 800;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+        justify-content: center;
     }
 
-    .soft_skills {
-        width: 80%;
+    .title_soft h2 {
+        font-size: 2.3rem;
+    }
+
+    .container_soft {
+        width: 90%;
         height: 20%;
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
 
-    .soft_skills ul {
-        width: 99%;
-        height: 80%;
+    .soft {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soft ul {
+        border-radius: 10px;
+        background-color: #BFBFBF;
+        width: 100%;
+        height: 90%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        list-style: square;
+        gap: 4px;
     }
 
-    .soft_skills ul li {
-        font-size: 1.1rem;
-        box-shadow: rgba(228, 223, 223, 0.747) 0px 22px 70px 4px;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    .soft ul li {
+        font-size: 1.3rem;
     }
 }
 
@@ -1240,7 +867,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #eeedec;
+        background-color: #7D7D7D;
     }
 
     .ferramentas {
@@ -1250,100 +877,94 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 4px;
     }
 
     .title_hard {
-        width: 90%;
-        height: 8%;
+        width: 100%;
+        height: 10%;
         display: flex;
-        align-items: center;
-        font-size: 2rem;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
-    }
-
-
-    .hard_skills {
-        width: 80%;
-        height: 50%;
-        display: flex;
-        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 4px;
     }
 
-    .container_icons {
-        width: 160px;
-        height: 170px;
+    .title_hard h2 {
+        font-size: 2.5rem;
+    }
+
+    .container_hard {
+        width: 70%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hard {
+        width: 30%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hard ul {
+        background-color: #BFBFBF;
+        width: 80%;
+        height: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        gap: 2px;
-    }
-
-    .icones {
-        width: 80px;
-        height: 80px;
-        border-radius: 30%;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    }
-
-    .icones img {
-        width: 100%;
-        height: 100%;
-        border-radius: 30%;
-    }
-
-    .texto {
-        width: 99%;
-        height: 30px;
-        font-weight: 800;
-        font-size: 1.1rem;
+        justify-content: space-evenly;
         border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    }
 
+    .hard ul li {
+        font-size: 1.5rem;
     }
 
     .title_soft {
-        width: 90%;
-        height: 8%;
+        width: 100%;
+        height: 10%;
         display: flex;
         align-items: center;
-        font-size: 2rem;
-        font-weight: 800;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-
+        justify-content: center;
     }
 
-    .soft_skills {
-        width: 80%;
+    .title_soft h2 {
+        font-size: 2.5rem;
+    }
+
+    .container_soft {
+        width: 90%;
         height: 20%;
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
 
-    .soft_skills ul {
-        width: 99%;
-        height: 80%;
+    .soft {
+        width: 90%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soft ul {
+        border-radius: 10px;
+        background-color: #BFBFBF;
+        width: 100%;
+        height: 90%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        list-style: square;
     }
 
-    .soft_skills ul li {
-        font-size: 1.6rem;
-        box-shadow: rgba(228, 223, 223, 0.747) 0px 22px 70px 4px;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    .soft ul li {
+        font-size: 1.5rem;
     }
 }
+
 
 @media (min-with: 1901px) {}

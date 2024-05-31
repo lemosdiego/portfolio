@@ -11,6 +11,8 @@
         background-attachment: fixed;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-weight: 900;
+        color: #F5F5F5;
+
     }
 
     .inicio {
@@ -50,7 +52,6 @@
         align-items: center;
         justify-content: center;
         font-size: 1.5rem;
-        color: #fff;
     }
 
     .subtitle {
@@ -61,7 +62,6 @@
         align-items: center;
         font-size: 1.2rem;
         gap: 4px;
-        color: #fff;
     }
 
     .redes {
@@ -97,6 +97,8 @@
         align-items: center;
         justify-content: center;
         background-attachment: fixed;
+        color: #F5F5F5;
+
     }
 
     .inicio {
@@ -136,7 +138,6 @@
         align-items: center;
         justify-content: center;
         font-size: 1.7rem;
-        color: #fff;
     }
 
     .subtitle {
@@ -146,7 +147,6 @@
         flex-direction: column;
         align-items: center;
         font-size: 1.4rem;
-        color: #fff;
         gap: 4px;
     }
 
@@ -183,6 +183,8 @@
         align-items: center;
         justify-content: center;
         background-attachment: fixed;
+        color: #F5F5F5;
+
     }
 
     .inicio {
@@ -222,7 +224,6 @@
         align-items: center;
         justify-content: center;
         font-size: 1.8rem;
-        color: #fff;
     }
 
     .subtitle {
@@ -232,7 +233,6 @@
         flex-direction: column;
         align-items: center;
         font-size: 1.5rem;
-        color: #fff;
         gap: 4px;
     }
 
@@ -269,6 +269,8 @@
         align-items: center;
         justify-content: center;
         background-attachment: fixed;
+        color: #F5F5F5;
+
     }
 
     .inicio {
@@ -308,7 +310,6 @@
         align-items: center;
         justify-content: center;
         font-size: 2.1rem;
-        color: #fff;
     }
 
     .subtitle {
@@ -318,7 +319,6 @@
         flex-direction: column;
         align-items: center;
         font-size: 1.7rem;
-        color: #fff;
         gap: 4px;
     }
 
@@ -356,6 +356,8 @@
         align-items: center;
         justify-content: center;
         background-attachment: fixed;
+        color: #F5F5F5;
+
     }
 
     .inicio {
@@ -396,7 +398,6 @@
         align-items: center;
         justify-content: center;
         font-size: 2.2rem;
-        color: #fff;
     }
 
     .subtitle {
@@ -406,7 +407,6 @@
         flex-direction: column;
         align-items: center;
         font-size: 1.6rem;
-        color: #fff;
         gap: 4px;
     }
 
@@ -446,6 +446,8 @@
         background-attachment: fixed;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-weight: 900;
+        color: #F5F5F5;
+
     }
 
     .inicio {
@@ -486,7 +488,6 @@
         align-items: center;
         justify-content: center;
         font-size: 2.4rem;
-        color: #fff;
 
     }
 
@@ -498,7 +499,6 @@
         align-items: center;
         justify-content: center;
         font-size: 1.7rem;
-        color: #fff;
     }
 
     .redes {
@@ -535,6 +535,8 @@
         background-attachment: fixed;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-weight: 900;
+        color: #F5F5F5;
+
     }
 
     .inicio {
@@ -575,7 +577,6 @@
         align-items: center;
         justify-content: center;
         font-size: 2.5rem;
-        color: #fff;
 
     }
 
@@ -588,7 +589,6 @@
         align-items: center;
         justify-content: center;
         font-size: 1.7rem;
-        color: #fff;
     }
 
     .redes {
@@ -626,6 +626,8 @@
         background-attachment: fixed;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-weight: 900;
+        color: #F5F5F5;
+
     }
 
     .inicio {
@@ -664,7 +666,6 @@
         align-items: center;
         justify-content: center;
         font-size: 2.2rem;
-        color: #fff;
 
     }
 
@@ -676,7 +677,6 @@
         align-items: center;
         justify-content: center;
         font-size: 1.5rem;
-        color: #fff;
     }
 
     .redes {
@@ -714,6 +714,8 @@
         background-attachment: fixed;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-weight: 900;
+        color: #F5F5F5;
+
 
     }
 
@@ -755,7 +757,6 @@
         align-items: center;
         justify-content: center;
         font-size: 2.8rem;
-        color: #fff;
     }
 
     .subtitle {
@@ -766,7 +767,6 @@
         align-items: center;
         justify-content: center;
         font-size: 1.8rem;
-        color: #fff;
     }
 
     .redes {

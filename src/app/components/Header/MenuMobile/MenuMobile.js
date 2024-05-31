@@ -11,8 +11,8 @@ export default function MenuMobile() {
         menuOpen.style.display = "flex"
         svgmenu.style.display = "none"
         close.style.display = "block"
-        menuNav.style.backgroundColor = "#eeedec"
-        menuNav.style.opacity = "0.8"
+        menuNav.style.backgroundColor = "#333333"
+        menuNav.style.opacity = "0.9"
         menuNav.style.boxShadow = "rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;"
         document.addEventListener('click', clickIndentificador);
 

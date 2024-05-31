@@ -10,7 +10,7 @@ export default function Header() {
     useEffect(() => {
         const rolarScroll = () => {
             if (window.scrollY > 50) {
-                setBgColor("#444");
+                setBgColor("#333333");
             } else {
                 setBgColor("transparent");
             }
