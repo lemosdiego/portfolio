@@ -28,19 +28,27 @@ export default function Contatos() {
                 <div className={Styles.rodape}>
                     <h2>Redes sociais:</h2>
                     <div className={Styles.icones}>
-
+                        <a href="https://www.linkedin.com/in/washington-lemos-033177186/" target="_blank"><img
+                            src="/img/linkedin.svg" alt="Linkedin" /></a>
                     </div>
                     <div className={Styles.icones}>
-
+                        <a href="https://github.com/lemosdiego" target="_blank"><img src="/img/github.svg"
+                            alt="Github" /></a>
                     </div>
                     <div className={Styles.icones}>
-
+                        <a href="https://www.instagram.com/washington.lemos_/?hl=pt-br" target="_blank">
+                            <img src="/img/insta.svg" alt="Instagram" />
+                        </a>
                     </div>
                     <div className={Styles.icones}>
-
+                        <a href="https://WA.me/5581982383803" target="_blank">
+                            <img src="img/whatsapp.svg" alt="Whatsapp" />
+                        </a>
                     </div>
                     <div className={Styles.icones}>
-
+                        <a href="https://www.facebook.com/washington.lemos.961?locale=pt_BR" target="_blank">
+                            <img src="img/face.svg" alt="Facebook" />
+                        </a>
                     </div>
                 </div>
             </div>

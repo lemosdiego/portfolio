@@ -867,12 +867,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #7D7D7D;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 85%, rgba(0, 0, 0, 1) 100%);
     }
 
     .ferramentas {
         width: 90%;
-        height: 80%;
+        height: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -888,7 +888,8 @@
     }
 
     .title_hard h2 {
-        font-size: 2.5rem;
+        font-size: 3rem;
+        color: #B71C1C;
     }
 
     .container_hard {
@@ -909,7 +910,7 @@
     }
 
     .hard ul {
-        background-color: #BFBFBF;
+        background-color: #b71c1cce;
         width: 80%;
         height: 90%;
         display: flex;
@@ -920,7 +921,9 @@
     }
 
     .hard ul li {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        color: #FFD700;
+
     }
 
     .title_soft {
@@ -932,7 +935,8 @@
     }
 
     .title_soft h2 {
-        font-size: 2.5rem;
+        font-size: 3rem;
+        color: #B71C1C;
     }
 
     .container_soft {
@@ -953,7 +957,7 @@
 
     .soft ul {
         border-radius: 10px;
-        background-color: #BFBFBF;
+        background-color: #b71c1cce;
         width: 100%;
         height: 90%;
         display: flex;
@@ -962,7 +966,9 @@
     }
 
     .soft ul li {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        color: #FFD700;
+
     }
 }
 

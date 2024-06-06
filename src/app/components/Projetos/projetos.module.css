@@ -1177,8 +1177,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #BFBFBF;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(12, 0, 53, 1) 41%, rgba(12, 0, 53, 1) 100%);
         color: #333333;
+        z-index: 999;
     }
 
     .container_projetos {
@@ -1199,6 +1200,8 @@
         justify-content: center;
         font-size: 2.5rem;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        color: #B71C1C;
+
     }
 
     .projetos {
@@ -1214,6 +1217,8 @@
         width: 80px;
         height: 80px;
         border-radius: 40%;
+        z-index: 999;
+        opacity: 0.9;
     }
 
     .icon button {
@@ -1250,7 +1255,7 @@
         flex-shrink: 0;
         margin: 0 10px 0 10px;
         border-radius: 10px;
-        background-color: #7D7D7D;
+        background-color: #b71c1cb6;
         font-weight: 800;
         color: #000;
     }
@@ -1280,6 +1285,8 @@
 
     .titulo h3 {
         font-size: 2rem;
+        color: #FFD700;
+
     }
 
     .descricao {
@@ -1293,6 +1300,8 @@
 
     .descricao p {
         width: 90%;
+        color: #FFD700;
+
     }
 
     .links {
@@ -1308,6 +1317,8 @@
     .links a {
         width: 40%;
         height: 80%;
+        z-index: 999;
+        cursor: pointer;
 
     }
 
@@ -1318,7 +1329,17 @@
         cursor: pointer;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-size: 1.1rem;
+        border: none;
+        background: none;
+        background-color: #B71C1C;
+        color: #FFD700;
+
     }
+
+    .links a button:hover {
+        color: #00BFFF;
+    }
+
 }
 
 @media (min-width: 1901px) {}

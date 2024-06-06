@@ -27,7 +27,7 @@ export default function Projetos() {
                 <div className={Styles.projetos}>
                     <div className={Styles.icon}>
                         <button onClick={moverEsquerda}>
-                            <img src="/img/esquerda.svg" />
+                            <img src="/img/squerdared.svg" />
                         </button>
                     </div>
                     <div className={Styles.container_card} id="projeto">
@@ -224,7 +224,7 @@ export default function Projetos() {
                     </div>
                     <div className={Styles.icon}>
                         <button onClick={moverDireita}>
-                            <img src="/img/direita.svg" />
+                            <img src="/img/direitared.svg" />
                         </button>
                     </div>
                 </div>
