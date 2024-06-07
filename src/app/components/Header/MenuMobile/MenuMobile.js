@@ -11,7 +11,7 @@ export default function MenuMobile() {
         menuOpen.style.display = "flex"
         svgmenu.style.display = "none"
         close.style.display = "block"
-        menuNav.style.backgroundColor = "#333333"
+        menuNav.style.backgroundColor = "#b71c1c9f"
         menuNav.style.opacity = "0.9"
         menuNav.style.boxShadow = "rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;"
         document.addEventListener('click', clickIndentificador);
@@ -52,7 +52,7 @@ export default function MenuMobile() {
             <nav className={Styles.nav} id="nav">
                 <div className={Styles.icones}>
                     <div className={Styles.icone1} id="svgopen" onClick={abrirMenu}>
-                        <img src="menu/open.svg" />
+                        <img src="menu/openwhite.svg" />
                     </div>
                     <div className={Styles.icone2} id="svgclose" onClick={fecharMenu}>
                         <img src="menu/close.svg" />

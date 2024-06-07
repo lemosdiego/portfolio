@@ -24,6 +24,7 @@
         gap: 20px;
         display: none;
         list-style: none;
+
     }
 
 
@@ -31,7 +32,9 @@
         font-size: 1.3rem;
         font-weight: 800;
         text-decoration: none;
-        color: #F5F5F5;
+        color: #FFD700;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        text-transform: capitalize;
     }
 
     .icones {
