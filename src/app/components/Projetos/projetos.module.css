@@ -2,10 +2,6 @@
     .container {
         width: 100%;
         height: 100vh;
-        background: url(../../../../public/img/projetos.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -67,7 +63,6 @@
         border-radius: 10px;
         margin: 5px;
         background-color: #b71c1cb6;
-        opacity: 0.9;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-weight: 800;
     }
@@ -158,21 +153,16 @@
     .container {
         width: 100%;
         height: 100vh;
-        background: url(../../../../public/img/projetos.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(12, 0, 53, 1) 41%, rgba(12, 0, 53, 1) 100%);
         display: flex;
         align-items: center;
         justify-content: center;
-        background-attachment: fixed;
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 
     }
 
     .container_projetos {
         width: 90%;
-        height: 90%;
+        height: 98%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -186,6 +176,8 @@
         align-items: center;
         justify-content: center;
         font-size: 1.9rem;
+        color: #B71C1C;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     }
 
     .projetos {
@@ -219,7 +211,7 @@
         border-radius: 10px;
         margin: 5px;
         background: #dddcda;
-        opacity: 0.9;
+        background-color: #b71c1cb6;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-weight: 800;
     }
@@ -250,6 +242,7 @@
 
     .titulo h3 {
         font-size: 1.3rem;
+        color: #FFD700;
     }
 
     .descricao {
@@ -264,6 +257,7 @@
     .descricao p {
         width: 90%;
         font-size: 0.9rem;
+        color: #FFD700;
     }
 
     .links {
@@ -284,13 +278,19 @@
     .links a button {
         width: 100%;
         height: 100%;
-        border-radius: 8px;
+        border-radius: 4px;
         cursor: pointer;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
         font-size: 1rem;
         background: none;
         border: none;
+        background-color: #B71C1C;
+        color: #FFD700;
+    }
+
+    .links a button:hover {
+        color: #00BFFF;
     }
 }
 
@@ -298,10 +298,7 @@
     .container {
         width: 100%;
         height: 100vh;
-        background: url(../../../../public/img/projetos.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(12, 0, 53, 1) 41%, rgba(12, 0, 53, 1) 100%);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -310,7 +307,7 @@
 
     .container_projetos {
         width: 90%;
-        height: 90%;
+        height: 98%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -325,6 +322,10 @@
         justify-content: center;
         color: #fff;
         font-size: 1.9rem;
+    }
+
+    .title h2 {
+        color: #B71C1C;
     }
 
     .projetos {
@@ -356,8 +357,10 @@
         flex-shrink: 0;
         margin: 0 10px 0 10px;
         border-radius: 10px;
-        background: #333333a4;
-        color: #fff;
+        background: #dddcda;
+        background-color: #b71c1cb6;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        font-weight: 800;
         margin: 5px;
     }
 
@@ -387,6 +390,7 @@
 
     .titulo h3 {
         font-size: 1.3rem;
+        color: #FFD700;
     }
 
     .descricao {
@@ -401,6 +405,7 @@
     .descricao p {
         width: 90%;
         font-size: 0.9rem;
+        color: #FFD700;
     }
 
     .links {
@@ -421,8 +426,11 @@
     .links a button {
         width: 100%;
         height: 100%;
-        border-radius: 10px;
+        border-radius: 4px;
         cursor: pointer;
+        background-color: #B71C1C;
+        color: #FFD700;
+        border: none;
     }
 }
 

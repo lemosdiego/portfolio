@@ -11,7 +11,6 @@
         background-attachment: fixed;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
         font-weight: 900;
-        color: #4B4B4B;
     }
 
     .inicio {
@@ -99,7 +98,6 @@
         background: none;
         background-color: #B71C1C;
         color: #FFD700;
-        opacity: 0.8;
     }
 }
 
@@ -120,7 +118,6 @@
     }
 
     .inicio {
-        border: solid 1px #fff;
         width: 99%;
         height: 80%;
         display: flex;
@@ -130,7 +127,6 @@
     }
 
     .apresentacao {
-        border: solid 1px #fff;
         width: 100%;
         height: 80%;
         display: flex;
@@ -141,7 +137,6 @@
     }
 
     .titulo {
-        border: solid 1px #fff;
         width: 100%;
         height: 12%;
         display: flex;
@@ -152,7 +147,6 @@
     }
 
     .subtitle {
-        border: solid 1px #fff;
         width: 100%;
         height: 12%;
         display: flex;
@@ -163,7 +157,6 @@
     }
 
     .descricao {
-        border: solid 1px #fff;
         width: 100%;
         height: 40%;
         display: flex;
@@ -185,7 +178,6 @@
     }
 
     .redes {
-        border: solid 1px #fff;
         width: 95%;
         height: 12%;
         display: flex;
@@ -229,7 +221,6 @@
     }
 
     .inicio {
-        border: solid 1px #fff;
         width: 99%;
         height: 80%;
         display: flex;
@@ -239,7 +230,6 @@
     }
 
     .apresentacao {
-        border: solid 1px #fff;
         width: 100%;
         height: 80%;
         display: flex;
@@ -250,7 +240,6 @@
     }
 
     .titulo {
-        border: solid 1px #fff;
         width: 100%;
         height: 12%;
         display: flex;
@@ -261,7 +250,6 @@
     }
 
     .subtitle {
-        border: solid 1px #fff;
         width: 100%;
         height: 12%;
         display: flex;
@@ -272,7 +260,6 @@
     }
 
     .descricao {
-        border: solid 1px #fff;
         width: 100%;
         height: 40%;
         display: flex;
@@ -294,7 +281,6 @@
     }
 
     .redes {
-        border: solid 1px #fff;
         width: 95%;
         height: 12%;
         display: flex;

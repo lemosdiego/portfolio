@@ -22,7 +22,7 @@ export default function Projetos() {
         <div className={Styles.container} id="projetos">
             <div className={Styles.container_projetos}>
                 <div className={Styles.title}>
-                    <h1>Projetos</h1>
+                    <h2>Projetos</h2>
                 </div>
                 <div className={Styles.projetos}>
                     <div className={Styles.icon}>

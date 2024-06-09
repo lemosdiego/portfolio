@@ -121,8 +121,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #7D7D7D;
-
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 85%, rgba(0, 0, 0, 1) 100%);
     }
 
     .ferramentas {
@@ -144,6 +143,8 @@
 
     .title_hard h2 {
         font-size: 2rem;
+        color: #B71C1C;
+
     }
 
     .container_hard {
@@ -164,7 +165,7 @@
     }
 
     .hard ul {
-        background-color: #BFBFBF;
+        background-color: #b71c1cce;
         border-radius: 10px;
         width: 90%;
         height: 95%;
@@ -176,6 +177,7 @@
 
     .hard ul li {
         font-size: 0.9rem;
+        color: #FFD700;
     }
 
     .title_soft {
@@ -188,6 +190,8 @@
 
     .title_soft h2 {
         font-size: 2rem;
+        color: #B71C1C;
+
     }
 
     .container_soft {
@@ -207,7 +211,7 @@
     }
 
     .soft ul {
-        background-color: #BFBFBF;
+        background-color: #b71c1cce;
         border-radius: 10px;
         width: 60%;
         height: 100%;
@@ -219,6 +223,7 @@
 
     .soft ul li {
         font-size: 0.8rem;
+        color: #FFD700;
     }
 }
 
@@ -229,8 +234,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #7D7D7D;
-
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 85%, rgba(0, 0, 0, 1) 100%);
     }
 
     .ferramentas {
@@ -252,6 +256,7 @@
 
     .title_hard h2 {
         font-size: 2rem;
+        color: #B71C1C;
     }
 
     .container_hard {
@@ -264,7 +269,7 @@
     }
 
     .hard {
-        width: 50%;
+        width: 70%;
         height: 33%;
         display: flex;
         align-items: center;
@@ -272,7 +277,7 @@
     }
 
     .hard ul {
-        background-color: #BFBFBF;
+        background-color: #b71c1cce;
         border-radius: 10px;
         width: 90%;
         height: 95%;
@@ -284,6 +289,7 @@
 
     .hard ul li {
         font-size: 1rem;
+        color: #FFD700;
     }
 
     .title_soft {
@@ -296,6 +302,8 @@
 
     .title_soft h2 {
         font-size: 2rem;
+        color: #B71C1C;
+
     }
 
     .container_soft {
@@ -315,9 +323,9 @@
     }
 
     .soft ul {
-        background-color: #BFBFBF;
+        background-color: #b71c1cce;
         border-radius: 10px;
-        width: 45%;
+        width: 63%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -327,6 +335,7 @@
 
     .soft ul li {
         font-size: 0.9rem;
+        color: #FFD700;
     }
 }
 
