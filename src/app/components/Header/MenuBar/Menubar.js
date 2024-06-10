@@ -5,7 +5,6 @@ import Image from "next/image";
 
 export default function Menu() {
     useEffect(() => {
-        // Cleanup on component unmount
         return () => {
             document.removeEventListener("scroll", fecharMenuDesk);
             document.removeEventListener("click", handleClickOutside, true);

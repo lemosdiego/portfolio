@@ -17,7 +17,6 @@ export default function Projetos() {
     useEffect(() => {
         const click = () => {
             const clique = document.getElementById('projeto');
-            alert('clicou');
         };
 
         const projeto = document.getElementById('projeto');
