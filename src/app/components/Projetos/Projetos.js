@@ -76,7 +76,7 @@ export default function Projetos() {
                                 <h3>Fynd my beer</h3>
                             </div>
                             <div className={Styles.descricao}>
-                                <p>O "Find My Beer" é uma aplicação web desenvolvida utilizando Next.js, o objetivo do projeto é permitir que os usuários encontrem e explorem diferentes tipos de cervejas. A aplicação também possibilita a busca por cervejas específicas, a visualização de avaliações e a descoberta de cervejarias locais.</p>
+                                <p>O Find My Beer é uma aplicação web desenvolvida utilizando Next.js, o objetivo do projeto é permitir que os usuários encontrem e explorem diferentes tipos de cervejas. A aplicação também possibilita a busca por cervejas específicas, a visualização de avaliações e a descoberta de cervejarias locais.</p>
                             </div>
                             <div className={Styles.links}>
                                 <a href="https://github.com/lemosdiego/find-my-beer.git" target="blank">
@@ -92,7 +92,7 @@ export default function Projetos() {
                                 <h3>Blog Angular</h3>
                             </div>
                             <div className={Styles.descricao}>
-                                <p>O "Blog de Notícias" é uma plataforma web desenvolvida com o framework Angular, projetada para fornecer aos usuários acesso a conteúdos informativos e atualizados. Este blog oferece uma experiência dinâmica e interativa, onde os usuários podem navegar por diferentes categorias de notícias,</p>
+                                <p>O Blog de Notícias é uma plataforma web desenvolvida com o framework Angular, projetada para fornecer aos usuários acesso a conteúdos informativos e atualizados. Este blog oferece uma experiência dinâmica e interativa, onde os usuários podem navegar por diferentes categorias de notícias,</p>
                             </div>
                             <div className={Styles.links}>
                                 <a href="https://github.com/lemosdiego/blog-project.git" target="blank">
@@ -109,7 +109,7 @@ export default function Projetos() {
                                 <h3>Quizz Angular</h3>
                             </div>
                             <div className={Styles.descricao}>
-                                <p>O "Quizz com Angular" é uma aplicação web divertida e educativa, construída utilizando o framework Angular. Este projeto permite aos usuários participar de quizzes interativos em uma variedade de tópicos, responder perguntas, receber feedback imediato e ver suas pontuações finais.</p>
+                                <p>O Quizz com Angular é uma aplicação web divertida e educativa, construída utilizando o framework Angular. Este projeto permite aos usuários participar de quizzes interativos em uma variedade de tópicos, responder perguntas, receber feedback imediato e ver suas pontuações finais.</p>
                             </div>
                             <div className={Styles.links}>
                                 <a href="https://github.com/lemosdiego/quizz_angular.git" target="blank">
@@ -180,7 +180,7 @@ export default function Projetos() {
                                 <h3>Calculadora IMC</h3>
                             </div>
                             <div className={Styles.descricao}>
-                                <p>A "Calculadora IMC" é uma aplicação web simples que permite aos usuários calcular seu Índice de Massa Corporal (IMC) com base em sua altura e peso. Utilizando HTML, CSS e JavaScript, a aplicação fornece uma interface amigável onde os usuários podem inserir seus dados, obter o valor do IMC e ver uma classificação sobre seu estado de saúde.</p>
+                                <p>A Calculadora IMC é uma aplicação web simples que permite aos usuários calcular seu Índice de Massa Corporal IMC com base em sua altura e peso. Utilizando HTML, CSS e JavaScript, a aplicação fornece uma interface amigável onde os usuários podem inserir seus dados, obter o valor do IMC e ver uma classificação sobre seu estado de saúde.</p>
                             </div>
                             <div className={Styles.links}>
                                 <a href="https://github.com/lemosdiego/IMC-project.git  " target="blank">
@@ -197,7 +197,7 @@ export default function Projetos() {
                                 <h3>Lista de tarefas</h3>
                             </div>
                             <div className={Styles.descricao}>
-                                <p>A "Lista de Tarefas" é uma aplicação web simples e funcional que permite aos usuários criar, gerenciar e rastrear suas tarefas diárias. Utilizando HTML, CSS e JavaScript, essa aplicação proporciona uma interface intuitiva para adicionar novas tarefas, marcar tarefas como concluídas e remover tarefas da lista.</p>
+                                <p>A Lista de Tarefas é uma aplicação web simples e funcional que permite aos usuários criar, gerenciar e rastrear suas tarefas diárias. Utilizando HTML, CSS e JavaScript, essa aplicação proporciona uma interface intuitiva para adicionar novas tarefas, marcar tarefas como concluídas e remover tarefas da lista.</p>
                             </div>
                             <div className={Styles.links}>
 
