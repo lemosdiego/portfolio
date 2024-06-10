@@ -1184,6 +1184,7 @@
         width: 40%;
         height: 80%;
 
+
     }
 
     .links a button {
@@ -1194,8 +1195,10 @@
         border-radius: 8px;
         cursor: pointer;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
         font-size: 0.9rem;
+        background-color: #B71C1C;
+        color: #FFD700;
+        border-radius: 8px;
     }
 }
 
