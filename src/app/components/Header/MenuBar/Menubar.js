@@ -1,6 +1,7 @@
 'use client';
 import React, { useEffect } from "react";
 import Styles from "./menu.module.css"
+import Image from "next/image";
 
 export default function Menu() {
     function abrirMenuDesk() {
@@ -47,8 +48,8 @@ export default function Menu() {
                     <p>Menu</p>
                 </div>
                 <div className={Styles.icones}>
-                    <img src="menu/openwhite.svg" id="open" onClick={abrirMenuDesk} className={Styles.open} alt="open" />
-                    <img src="menu/close.svg" id="close" onClick={fecharMenuDesk} className={Styles.close} alt="close" />
+                    <Image src="menu/openwhite.svg" id="open" onClick={abrirMenuDesk} className={Styles.open} alt="open" width={100} height={100} layout='responsive' />
+                    <Image src="menu/close.svg" id="close" onClick={fecharMenuDesk} className={Styles.close} alt="close" width={100} height={100} layout='responsive' />
                 </div>
             </div>
             <nav className={Styles.nav} id="nav">

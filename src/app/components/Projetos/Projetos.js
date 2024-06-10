@@ -2,6 +2,7 @@
 import React from "react";
 import Styles from "./projetos.module.css"
 import { Card } from "@mui/material";
+import Image from "next/image";
 
 
 export default function Projetos() {
@@ -85,7 +86,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <img src="/projetos/blog.svg" alt="seta direita" />
+                                <Image src="/projetos/blog.svg" alt="seta direita" width={100} height={100} layout='responsive' />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Blog Angular</h3>
@@ -224,7 +225,7 @@ export default function Projetos() {
                     </div>
                     <div className={Styles.icon}>
                         <button onClick={moverDireita}>
-                            <img src="/img/direitared.svg" />
+                            <Image src="/img/direitared.svg" width={100} height={100} layout='responsive' />
                         </button>
                     </div>
                 </div>

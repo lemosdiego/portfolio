@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Styles from "./sobre.module.css"
 
 export default function Sobre() {
@@ -20,12 +21,12 @@ export default function Sobre() {
                     <div className={Styles.contatos}>
                         <div className={Styles.icons}>
                             <a href="https://WA.me/5581982383803" target="_blank">
-                                <img src="img/whats.svg" alt="Whatsapp" />
+                                <Image src="img/whats.svg" alt="Whatsapp" width={100} height={100} layout='responsive' />
                             </a>
                         </div>
                         <div className={Styles.icons}>
                             <a href="https://ig.me/m/washington.lemos_" target="_blank">
-                                <img src="img/messenger.svg" alt="Mensenger" />
+                                <Image src="img/messenger.svg" alt="Mensenger" width={100} height={100} layout='responsive' />
                             </a>
                         </div>
                     </div>

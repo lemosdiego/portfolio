@@ -1,5 +1,5 @@
-import { ST } from "next/dist/shared/lib/utils"
 import Styles from "./contatos.module.css"
+import Image from "next/image"
 
 export default function Contatos() {
     return (
@@ -29,25 +29,25 @@ export default function Contatos() {
                     <h2>Redes sociais:</h2>
                     <div className={Styles.icones}>
                         <a href="https://www.linkedin.com/in/washington-lemos-033177186/" target="_blank">
-                            <img src="/img/linkedin.svg" alt="Linkedin" /></a>
+                            <Image src="/img/linkedin.svg" alt="Linkedin" width={100} height={100} layout="responsive" /></a>
                     </div>
                     <div className={Styles.icones}>
-                        <a href="https://github.com/lemosdiego" target="_blank"><img src="/img/github.svg"
-                            alt="Github" /></a>
+                        <a href="https://github.com/lemosdiego" target="_blank"><Image src="/img/github.svg"
+                            alt="Github" width={100} height={100} layout="responsive" /></a>
                     </div>
                     <div className={Styles.icones}>
                         <a href="https://www.instagram.com/washington.lemos_/?hl=pt-br" target="_blank">
-                            <img src="/img/insta.svg" alt="Instagram" />
+                            <Image src="/img/insta.svg" alt="Instagram" width={100} height={100} layout="responsive" />
                         </a>
                     </div>
                     <div className={Styles.icones}>
                         <a href="https://WA.me/5581982383803" target="_blank">
-                            <img src="img/whatsapp.svg" alt="Whatsapp" />
+                            <Image src="img/whatsapp.svg" alt="Whatsapp" width={100} height={100} layout="responsive" />
                         </a>
                     </div>
                     <div className={Styles.icones}>
                         <a href="https://www.facebook.com/washington.lemos.961?locale=pt_BR" target="_blank">
-                            <img src="img/face.svg" alt="Facebook" />
+                            <Image src="img/face.svg" alt="Facebook" width={100} height={100} layout="responsive" />
                         </a>
                     </div>
                 </div>

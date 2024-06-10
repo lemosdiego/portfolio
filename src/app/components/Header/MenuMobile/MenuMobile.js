@@ -1,6 +1,7 @@
 'use client';
 import { useEffect } from 'react';
 import Styles from "./menumobile.module.css"
+import Image from 'next/image';
 
 export default function MenuMobile() {
     const abrirMenu = () => {
@@ -51,10 +52,10 @@ export default function MenuMobile() {
             <nav className={Styles.nav} id="nav">
                 <div className={Styles.icones}>
                     <div className={Styles.icone1} id="svgopen" onClick={abrirMenu}>
-                        <img src="menu/openwhite.svg" alt='open' />
+                        <Image src="menu/openwhite.svg" alt='open' width={100} height={100} layout='responsive' />
                     </div>
                     <div className={Styles.icone2} id="svgclose" onClick={fecharMenu}>
-                        <img src="menu/close.svg" alt='close' />
+                        <Image src="menu/close.svg" alt='close' width={100} height={100} layout='responsive' />
                     </div>
                 </div>
                 <ul id="navegacao">
