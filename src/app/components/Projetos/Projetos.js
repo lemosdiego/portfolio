@@ -27,7 +27,7 @@ export default function Projetos() {
                 <div className={Styles.projetos}>
                     <div className={Styles.icon}>
                         <button onClick={moverEsquerda}>
-                            <img src="/img/squerdared.svg" />
+                            <img src="/img/squerdared.svg" alt="seta esquerda" />
                         </button>
                     </div>
                     <div className={Styles.container_card} id="projeto">
@@ -85,7 +85,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <img src="/projetos/blog.svg" />
+                                <img src="/projetos/blog.svg" alt="seta direita" />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Blog Angular</h3>

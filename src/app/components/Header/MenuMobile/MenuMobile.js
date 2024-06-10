@@ -51,10 +51,10 @@ export default function MenuMobile() {
             <nav className={Styles.nav} id="nav">
                 <div className={Styles.icones}>
                     <div className={Styles.icone1} id="svgopen" onClick={abrirMenu}>
-                        <img src="menu/openwhite.svg" />
+                        <img src="menu/openwhite.svg" alt='open' />
                     </div>
                     <div className={Styles.icone2} id="svgclose" onClick={fecharMenu}>
-                        <img src="menu/close.svg" />
+                        <img src="menu/close.svg" alt='close' />
                     </div>
                 </div>
                 <ul id="navegacao">

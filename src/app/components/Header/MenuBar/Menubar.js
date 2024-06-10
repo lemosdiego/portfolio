@@ -47,8 +47,8 @@ export default function Menu() {
                     <p>Menu</p>
                 </div>
                 <div className={Styles.icones}>
-                    <img src="menu/openwhite.svg" id="open" onClick={abrirMenuDesk} className={Styles.open} />
-                    <img src="menu/close.svg" id="close" onClick={fecharMenuDesk} className={Styles.close} />
+                    <img src="menu/openwhite.svg" id="open" onClick={abrirMenuDesk} className={Styles.open} alt="open" />
+                    <img src="menu/close.svg" id="close" onClick={fecharMenuDesk} className={Styles.close} alt="close" />
                 </div>
             </div>
             <nav className={Styles.nav} id="nav">

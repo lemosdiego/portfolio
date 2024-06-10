@@ -28,8 +28,8 @@ export default function Contatos() {
                 <div className={Styles.rodape}>
                     <h2>Redes sociais:</h2>
                     <div className={Styles.icones}>
-                        <a href="https://www.linkedin.com/in/washington-lemos-033177186/" target="_blank"><img
-                            src="/img/linkedin.svg" alt="Linkedin" /></a>
+                        <a href="https://www.linkedin.com/in/washington-lemos-033177186/" target="_blank">
+                            <img src="/img/linkedin.svg" alt="Linkedin" /></a>
                     </div>
                     <div className={Styles.icones}>
                         <a href="https://github.com/lemosdiego" target="_blank"><img src="/img/github.svg"
