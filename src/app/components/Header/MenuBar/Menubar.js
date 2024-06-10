@@ -12,7 +12,7 @@ export default function Menu() {
         abrir.style.display = "flex";
         iconOpen.style.display = "none"
         iconClose.style.display = "block"
-        container.style.background = "#b71c1c9f"
+        container.style.background = "#B71C1C"
 
         document.addEventListener("scroll", fecharMenuDesk);
         document.addEventListener("click", handleClickOutside, true);

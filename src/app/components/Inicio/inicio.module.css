@@ -309,58 +309,84 @@
 
 @media (min-width: 651px) and (max-width: 700px) {
 
+    .container {
+        height: 100vh;
+        background-image: url(../../../../public/img/mobile.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-attachment: fixed;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        font-weight: 900;
+        color: #4B4B4B;
+    }
+
     .inicio {
         width: 99%;
-        height: 85%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-    }
-
-    .img {
-        width: 380px;
-        height: 380px;
-        border-radius: 50%;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
+        justify-content: flex-start;
     }
 
     .apresentacao {
-        width: 99%;
-        height: 20%;
+        width: 100%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 4px;
     }
 
     .titulo {
         width: 100%;
-        height: 50%;
+        height: 12%;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 2.1rem;
+        font-size: 1.4rem;
+        color: #B71C1C;
     }
 
     .subtitle {
         width: 100%;
-        height: 50%;
+        height: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.1rem;
+        color: #FFD700;
+    }
+
+    .descricao {
+        width: 100%;
+        height: 40%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 1.7rem;
-        gap: 4px;
+        justify-content: center;
+    }
+
+    .descricao h3 {
+        height: 12%;
+        font-size: 1.2rem;
+        color: #B71C1C;
+    }
+
+    .descricao p {
+        inline-size: 90%;
+        font-size: 1.1rem;
+        color: #FFD700;
     }
 
     .redes {
-        width: 80%;
-        height: 10%;
+        width: 95%;
+        height: 12%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -369,150 +395,102 @@
 
     .redes a {
         width: 35%;
-        height: 44px;
+        height: 40px;
     }
 
     .redes a button {
+        border: none;
+        border-radius: 10px;
         width: 100%;
         height: 100%;
         text-transform: uppercase;
         cursor: pointer;
+        background: none;
+        background-color: #B71C1C;
+        color: #FFD700;
     }
 }
 
 @media (min-width: 701px) and (max-width: 850px) {
 
+    .container {
+        height: 100vh;
+        background-image: url(../../../../public/img/mobile.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-attachment: fixed;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        font-weight: 900;
+        color: #4B4B4B;
+    }
 
     .inicio {
         width: 99%;
-        height: 85%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
-
-    .img {
-        width: 350px;
-        height: 350px;
-        border-radius: 50%;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-    }
-
 
     .apresentacao {
-        width: 99%;
-        height: 20%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .titulo {
         width: 100%;
-        height: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 2.2rem;
-    }
-
-    .subtitle {
-        width: 100%;
-        height: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 1.6rem;
-        gap: 4px;
-    }
-
-    .redes {
-        width: 80%;
-        height: 10%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-
-    .redes a {
-        width: 37%;
-        height: 48px;
-    }
-
-    .redes a button {
-        width: 100%;
-        height: 100%;
-        text-transform: uppercase;
-        cursor: pointer;
-    }
-
-}
-
-@media (min-width: 851px) and (max-width: 1024px) {
-
-
-    .inicio {
-        width: 98%;
         height: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 2px;
-    }
-
-    .img {
-        width: 380px;
-        height: 380px;
-        border-radius: 50%;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-    }
-
-    .apresentacao {
-        width: 80%;
-        height: 27%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        gap: 4px;
     }
 
     .titulo {
         width: 100%;
-        height: 40%;
+        height: 12%;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 2.4rem;
-
+        font-size: 1.4rem;
+        color: #B71C1C;
     }
 
     .subtitle {
-        width: 90%;
+        width: 100%;
+        height: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.1rem;
+        color: #FFD700;
+    }
+
+    .descricao {
+        width: 100%;
         height: 40%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        font-size: 1.7rem;
+    }
+
+    .descricao h3 {
+        height: 12%;
+        font-size: 1.2rem;
+        color: #B71C1C;
+    }
+
+    .descricao p {
+        inline-size: 90%;
+        font-size: 1.1rem;
+        color: #FFD700;
     }
 
     .redes {
-        width: 50%;
-        height: 10%;
+        width: 95%;
+        height: 12%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -520,44 +498,51 @@
     }
 
     .redes a {
-        width: 49%;
-        height: 50px;
+        width: 35%;
+        height: 40px;
     }
 
     .redes a button {
+        border: none;
+        border-radius: 10px;
         width: 100%;
         height: 100%;
+        text-transform: uppercase;
         cursor: pointer;
+        background: none;
+        background-color: #B71C1C;
+        color: #FFD700;
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1200px) {
-
-    .inicio {
-        width: 98%;
-        height: 90%;
+@media (min-width: 851px) and (max-width: 1024px) {
+    .container {
+        height: 100vh;
+        background-image: url(../../../../public/img/mobile.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 2px;
+        background-attachment: fixed;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        font-weight: 900;
     }
 
-    .img {
-        width: 380px;
-        height: 380px;
-        border-radius: 50%;
-    }
-
-    .img img {
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
+    .inicio {
+        width: 1000%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
     }
 
     .apresentacao {
-        width: 70%;
-        height: 27%;
+        width: 100%;
+        height: 70%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -565,29 +550,168 @@
     }
 
     .titulo {
-        width: 100%;
-        height: 40%;
+        width: 90%;
+        height: 20%;
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 2.5rem;
-
+        color: #B71C1C;
     }
 
     .subtitle {
-        border: solid 1px #0000;
+        width: 90%;
+        height: 12%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        color: #FFD700;
+    }
+
+    .descricao {
+        width: 90%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .descricao h3 {
+        color: #B71C1C;
+        font-size: 2rem;
+        height: 20%;
+    }
+
+    .descricao p {
+        width: 90%;
+        font-size: 1.2rem;
+        text-align: left;
+        line-height: 26px;
+        color: #FFD700;
+    }
+
+    .redes {
+        width: 90%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+    .redes a {
+        width: 25%;
+        height: 50px;
+        z-index: 999;
+        cursor: pointer;
+    }
+
+    .redes a button {
+        background-color: #B71C1C;
+        color: #FFD700;
+        border: none;
         width: 100%;
-        height: 40%;
+        height: 100%;
+        cursor: pointer;
+        font-size: 1.1rem;
+        border-radius: 10px;
+
+    }
+
+    .redes a button:hover {
+        color: #00BFFF;
+
+    }
+
+
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+    .container {
+        height: 100vh;
+        background-image: url(../../../../public/img/design1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-attachment: fixed;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        font-weight: 900;
+    }
+
+    .inicio {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .apresentacao {
+        width: 82%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo {
+        width: 90%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.4rem;
+        color: #B71C1C;
+    }
+
+    .subtitle {
+        width: 90%;
+        height: 12%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         font-size: 1.7rem;
+        color: #FFD700;
+    }
+
+    .descricao {
+        width: 90%;
+        height: 52%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .descricao h3 {
+        color: #B71C1C;
+        font-size: 2rem;
+        height: 20%;
+    }
+
+    .descricao p {
+        width: 90%;
+        font-size: 1.2rem;
+        text-align: left;
+        line-height: 26px;
+        color: #FFD700;
     }
 
     .redes {
-        width: 70%;
-        height: 10%;
+        width: 90%;
+        height: 15%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -595,73 +719,111 @@
     }
 
     .redes a {
-        width: 30%;
-        height: 50px;
+        width: 22%;
+        height: 45px;
+        z-index: 999;
+        cursor: pointer;
+
     }
 
     .redes a button {
+        background-color: #B71C1C;
+        color: #FFD700;
+        border: none;
         width: 100%;
         height: 100%;
-        text-transform: uppercase;
         cursor: pointer;
+        font-size: 1.1rem;
+        border-radius: 10px;
+    }
+
+    .redes a button:hover {
+        color: #00BFFF;
+
     }
 }
 
 @media (min-width: 1201px) and (max-width: 1600px) {
-
-
-    .inicio {
-        width: 90%;
-        height: 90%;
+    .container {
+        height: 100vh;
+        background-image: url(../../../../public/img/design1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
+        background-attachment: fixed;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        font-weight: 900;
     }
 
-    .img {
-        width: 310px;
-        height: 310px;
-        border-radius: 50%;
-    }
-
-    .img img {
+    .inicio {
         width: 100%;
-        height: 100%;
-        border-radius: 50%;
+        height: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
     }
 
     .apresentacao {
-        width: 50%;
-        height: 27%;
+        width: 70%;
+        height: 70%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .titulo {
-        width: 100%;
-        height: 40%;
+        width: 90%;
+        height: 20%;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 2.2rem;
-
+        font-size: 3rem;
+        color: #B71C1C;
     }
 
     .subtitle {
-        width: 100%;
-        height: 40%;
+        width: 90%;
+        height: 12%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
+        color: #FFD700;
+    }
+
+    .descricao {
+        width: 90%;
+        height: 52%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .descricao h3 {
+        color: #B71C1C;
+        font-size: 2.5rem;
+        height: 20%;
+    }
+
+    .descricao p {
+        width: 70%;
+        font-size: 1.4rem;
+        text-align: left;
+        line-height: 26px;
+        color: #FFD700;
     }
 
     .redes {
-        width: 50%;
-        height: 10%;
+        width: 90%;
+        height: 15%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -669,15 +831,26 @@
     }
 
     .redes a {
-        width: 34%;
-        height: 45px;
+        width: 18%;
+        height: 50px;
+        z-index: 999;
+        cursor: pointer;
     }
 
     .redes a button {
+        background-color: #B71C1C;
+        color: #FFD700;
+        border: none;
         width: 100%;
         height: 100%;
-        text-transform: uppercase;
         cursor: pointer;
+        font-size: 1.1rem;
+        border-radius: 10px;
+    }
+
+    .redes a button:hover {
+        color: #00BFFF;
+
     }
 }
 

@@ -307,6 +307,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 85%, rgba(0, 0, 0, 1) 100%);
     }
 
     .sobre_mim {
@@ -328,6 +329,7 @@
 
     .titulo h2 {
         font-size: 3rem;
+        color: #B71C1C;
     }
 
     .descricao {
@@ -343,6 +345,7 @@
         width: 90%;
         font-size: 1.4rem;
         text-align: justify;
+        color: #FFD700;
     }
 
     .redes_sociais {
@@ -363,6 +366,15 @@
     .curriculo button {
         width: 48%;
         height: 80%;
+        background-color: #B71C1C;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .curriculo button a {
+        color: #FFD700;
+        text-decoration: none;
+        font-size: 1.1rem;
     }
 
     .contatos {
@@ -380,6 +392,11 @@
         height: 60px;
         border-radius: 50%;
     }
+
+    .icons img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media (min-width: 701px) and (max-width: 850px) {
@@ -389,6 +406,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 85%, rgba(0, 0, 0, 1) 100%);
     }
 
     .sobre_mim {
@@ -410,6 +428,7 @@
 
     .titulo h2 {
         font-size: 3.1rem;
+        color: #B71C1C;
     }
 
     .descricao {
@@ -426,6 +445,7 @@
         font-size: 1.4rem;
         line-height: 25px;
         text-align: justify;
+        color: #FFD700;
     }
 
     .redes_sociais {
@@ -446,6 +466,15 @@
     .curriculo button {
         width: 48%;
         height: 70%;
+        border-radius: 4px;
+        border: none;
+        background-color: #B71C1C;
+    }
+
+    .curriculo button a {
+        color: #FFD700;
+        text-decoration: none;
+        font-size: 1.2rem;
     }
 
     .contatos {
@@ -458,10 +487,14 @@
     }
 
     .icons {
-        border: solid 1px #000;
         width: 60px;
         height: 60px;
         border-radius: 50%;
+    }
+
+    .icons img {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -472,11 +505,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 85%, rgba(0, 0, 0, 1) 100%);
     }
 
     .sobre_mim {
         width: 90%;
-        height: 80%;
+        height: 84%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -493,6 +527,7 @@
 
     .titulo h2 {
         font-size: 3.2rem;
+        color: #B71C1C;
     }
 
     .descricao {
@@ -505,14 +540,15 @@
     }
 
     .descricao p {
-        width: 90%;
+        width: 85%;
         font-size: 1.4rem;
         line-height: 25px;
         text-align: center;
+        color: #FFD700;
     }
 
     .redes_sociais {
-        width: 90%;
+        width: 80%;
         height: 10%;
         display: flex;
         align-items: center;
@@ -529,6 +565,15 @@
     .curriculo button {
         width: 48%;
         height: 80%;
+        border-radius: 8px;
+        background: #B71C1C;
+        border: none;
+    }
+
+    .curriculo button a {
+        color: #FFD700;
+        text-decoration: none;
+        font-size: 1.2rem;
     }
 
     .contatos {
@@ -537,14 +582,18 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 4px;
+        gap: 20px;
     }
 
     .icons {
-        border: solid 1px #000;
         width: 55px;
         height: 55px;
         border-radius: 50%;
+    }
+
+    .icons img {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -555,11 +604,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 85%, rgba(0, 0, 0, 1) 100%);
     }
 
     .sobre_mim {
         width: 90%;
-        height: 80%;
+        height: 88%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -576,6 +626,7 @@
 
     .titulo h2 {
         font-size: 3.2rem;
+        color: #B71C1C;
     }
 
     .descricao {
@@ -592,10 +643,11 @@
         font-size: 1.5rem;
         line-height: 28px;
         text-align: center;
+        color: #FFD700;
     }
 
     .redes_sociais {
-        width: 90%;
+        width: 80%;
         height: 10%;
         display: flex;
         align-items: center;
@@ -611,7 +663,16 @@
 
     .curriculo button {
         width: 48%;
-        height: 80%;
+        height: 75%;
+        border-radius: 10px;
+        background-color: #B71C1C;
+        border: none;
+    }
+
+    .curriculo button a {
+        color: #FFD700;
+        text-decoration: none;
+        font-size: 1.1rem;
     }
 
     .contatos {
@@ -620,7 +681,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 4px;
+        gap: 20px;
     }
 
     .icons {
@@ -628,6 +689,11 @@
         width: 60px;
         height: 60px;
         border-radius: 50%;
+    }
+
+    .icons img {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -638,6 +704,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 0%, rgba(12, 0, 53, 1) 85%, rgba(0, 0, 0, 1) 100%);
     }
 
     .sobre_mim {
@@ -658,7 +725,8 @@
     }
 
     .titulo h2 {
-        font-size: 2.9rem;
+        font-size: 3rem;
+        color: #B71C1C;
     }
 
     .descricao {
@@ -671,14 +739,15 @@
     }
 
     .descricao p {
-        width: 90%;
+        width: 80%;
         font-size: 1.3rem;
         text-align: center;
         line-height: 26px;
+        color: #FFD700;
     }
 
     .redes_sociais {
-        width: 90%;
+        width: 80%;
         height: 13%;
         display: flex;
         align-items: center;
@@ -695,7 +764,16 @@
 
     .curriculo button {
         width: 40%;
-        height: 85%;
+        height: 70%;
+        border-radius: 10px;
+        background-color: #B71C1C;
+        border: none;
+    }
+
+    .curriculo button a {
+        color: #FFD700;
+        text-decoration: none;
+        font-size: 1.1rem;
     }
 
     .contatos {
@@ -703,7 +781,7 @@
         height: 90%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 10px;
     }
 
@@ -712,6 +790,11 @@
         width: 60px;
         height: 60px;
         border-radius: 50%;
+    }
+
+    .icons img {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -758,8 +841,8 @@
     }
 
     .descricao p {
-        width: 70%;
-        font-size: 1.8rem;
+        width: 80%;
+        font-size: 1.7rem;
         text-align: center;
         color: #FFD700;
     }
@@ -773,7 +856,7 @@
     }
 
     .curriculo {
-        width: 30%;
+        width: 35%;
         height: 60%;
         display: flex;
         align-items: center;
