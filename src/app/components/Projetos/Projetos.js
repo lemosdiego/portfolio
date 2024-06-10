@@ -36,13 +36,13 @@ export default function Projetos() {
                 <div className={Styles.projetos}>
                     <div className={Styles.icon}>
                         <button onClick={moverEsquerda}>
-                            <Image src="/img/squerdared.svg" alt="seta esquerda" width={100} height={100} layout="responsive" />
+                            <Image src="/img/squerdared.svg" alt="seta esquerda" width={100} height={100} />
                         </button>
                     </div>
                     <div className={Styles.container_card} id="projeto">
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto1.jpeg" alt="projeto1" width={100} height={100} layout="responsive" />
+                                <Image src="/projetos/projeto1.jpeg" alt="projeto1" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Portfolio 2</h3>
@@ -61,7 +61,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto2.png" alt="projeto2" width={100} height={100} layout="responsive" />
+                                <Image src="/projetos/projeto2.png" alt="projeto2" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Lupulus Maximus</h3>
@@ -77,7 +77,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto3.svg" alt="projeto3" width={100} height={100} layout="responsive" />
+                                <Image src="/projetos/projeto3.svg" alt="projeto3" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Find my beer</h3>
@@ -93,7 +93,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/blog.svg" alt="projeto4" width={100} height={100} layout="responsive" />
+                                <Image src="/projetos/blog.svg" alt="projeto4" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Blog Angular</h3>
@@ -109,7 +109,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/quizz.svg" alt="projeto5" width={100} height={100} layout="responsive" />
+                                <Image src="/projetos/quizz.svg" alt="projeto5" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Quizz Angular</h3>
@@ -125,7 +125,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto4.svg" alt="projeto6" width={100} height={100} layout="responsive" />
+                                <Image src="/projetos/projeto4.svg" alt="projeto6" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Calculadora</h3>
@@ -141,7 +141,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto5.jpeg" alt="projeto7" width={100} height={100} layout="responsive" />
+                                <Image src="/projetos/projeto5.jpeg" alt="projeto7" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Portfolio 1</h3>
@@ -160,7 +160,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto6.jpeg" alt="projeto8" width={100} height={100} layout="responsive" />
+                                <Image src="/projetos/projeto6.jpeg" alt="projeto8" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Previsão do tempo</h3>
@@ -179,7 +179,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/imc.svg" alt="projeto9" width={100} height={100} layout="responsive" />
+                                <Image src="/projetos/imc.svg" alt="projeto9" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Calculadora IMC</h3>
@@ -195,7 +195,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto7.svg" alt="projeto10" width={100} height={100} layout="responsive" />
+                                <Image src="/projetos/projeto7.svg" alt="projeto10" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Lista de tarefas</h3>
@@ -207,7 +207,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto8.jpeg" alt="projeto11" width={100} height={100} layout="responsive" />
+                                <Image src="/projetos/projeto8.jpeg" alt="projeto11" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Site android</h3>
