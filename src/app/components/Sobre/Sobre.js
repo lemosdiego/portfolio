@@ -15,18 +15,18 @@ export default function Sobre() {
                 </div>
                 <div className={Styles.redes_sociais}>
                     <div className={Styles.curriculo}>
-                        <button><a href="/assets/img/curriculo.pdf" download>curriculo</a></button>
-                        <button><a href="https://drive.google.com/drive/folders/1zDTjqRBDQOFBmYn4MCzDyF1tl_CG-VV8?usp=sharing" target="blank">Certificados</a></button>
+                        <button><a href="/assets/img/curriculo.pdf" download>Currículo</a></button>
+                        <button><a href="https://drive.google.com/drive/folders/1zDTjqRBDQOFBmYn4MCzDyF1tl_CG-VV8?usp=sharing" target="_blank" rel="noopener noreferrer">Certificados</a></button>
                     </div>
                     <div className={Styles.contatos}>
                         <div className={Styles.icons}>
-                            <a href="https://WA.me/5581982383803" target="_blank">
-                                <Image src="img/whats.svg" alt="Whatsapp" width={100} height={100} layout='responsive' />
+                            <a href="https://WA.me/5581982383803" target="_blank" rel="noopener noreferrer">
+                                <Image src="/img/whats.svg" alt="Whatsapp" width={40} height={40} />
                             </a>
                         </div>
                         <div className={Styles.icons}>
-                            <a href="https://ig.me/m/washington.lemos_" target="_blank">
-                                <Image src="img/messenger.svg" alt="Mensenger" width={100} height={100} layout='responsive' />
+                            <a href="https://ig.me/m/washington.lemos_" target="_blank" rel="noopener noreferrer">
+                                <Image src="/img/messenger.svg" alt="Messenger" width={40} height={40} />
                             </a>
                         </div>
                     </div>
