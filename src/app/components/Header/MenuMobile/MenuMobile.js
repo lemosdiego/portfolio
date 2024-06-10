@@ -12,7 +12,7 @@ export default function MenuMobile() {
         menuOpen.style.display = "flex";
         svgmenu.style.display = "none";
         close.style.display = "block";
-        menuNav.style.backgroundColor = "#b71c1c9f";
+        menuNav.style.background = "#b71c1c9f";
         menuNav.style.boxShadow = "rgba(0, 0, 0, 0.56) 0px 22px 70px 4px";
         document.addEventListener('click', clickIndentificador);
     };
@@ -26,6 +26,8 @@ export default function MenuMobile() {
         svgmenuclose.style.display = "none";
         open.style.display = "block";
         menuNav.style.background = "none";
+        menuNav.style.boxShadow = "none";
+        menuNav.style.border = "none";
         document.removeEventListener('click', clickIndentificador);
     };
 
