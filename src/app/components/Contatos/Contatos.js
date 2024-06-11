@@ -3,55 +3,37 @@ import Image from "next/image"
 
 export default function Contatos() {
     return (
-        <footer className={Styles.container} id="contatos">
-            <div className={Styles.container_contatos}>
-                <div className={Styles.title}>
-                    <h2>Me envie uma mensagem</h2>
+        <section className={Styles.contatos} id="contatos">
+            <div className={Styles.container}>
+                <div className={Styles.redes}>
+                    <div className={Styles.title}>
+                        <h2>Vamos Conversar?</h2>
+                    </div>
+                    <div className={Styles.descricao}>
+                        <div className={Styles.title_redes}>
+                            <h3>Redes Sociais:</h3>
+                        </div>
+                        <ul>
+                            <a href="https://www.linkedin.com/in/washington-lemos-033177186/" target="blank"><li>Linkedin</li></a>
+                            <a href="https://www.instagram.com/washington.lemos_/?hl=pt-br" target="blank"><li>Instagram</li></a>
+                            <a href="<li>Facebook</li>" target="blank"><li>Facebook</li></a>
+                            <a href="https://WA.me/5581982383803" target="blank"><li>Whatsapp</li></a>
+                        </ul>
+                    </div>
                 </div>
-                <div className={Styles.form}>
-                    <form action="https://api.staticforms.xyz/submit" method="post">
-                        <input type="hidden" name="accessKey" value="71bf7d3e-399a-41d9-a329-ea4cb2e65419" />
-                        <input type="hidden" name="redirectTo" value="http://192.168.2.14:5500/" />
-                        <label htmlFor="inputNome">Nome</label>
-                        <input type="text" id="inputNome" name="name" required maxLength="25" minLength="2" placeholder="Washington" />
-                        <label htmlFor="inputSobrenome">Sobrenome</label>
-                        <input type="text" id="inputSobrenome" name="sobrenome" required maxLength="25" minLength="2" placeholder="Lemos" />
-                        <label htmlFor="inputEmail">Email</label>
-                        <input type="email" id="inputEmail" name="email" required maxLength="40" placeholder="email@email.com" />
-                        <label htmlFor="textAreaMensagem">Mensagem</label>
-                        <textarea name="message" id="textAreaMensagem" required maxLength="100" cols="50" rows="4"></textarea>
-                        <button className={Styles.button_form}>Enviar</button>
-                    </form>
-                </div>
-                <div className={Styles.rodape}>
-                    <h2>Redes sociais:</h2>
-                    <div className={Styles.icones}>
-                        <a href="https://www.linkedin.com/in/washington-lemos-033177186/" target="_blank">
-                            <Image src="/img/linkedin.svg" alt="Linkedin" width={100} height={100} layout="responsive" />
-                        </a>
-                    </div>
-                    <div className={Styles.icones}>
-                        <a href="https://github.com/lemosdiego" target="_blank">
-                            <Image src="/img/github.svg" alt="Github" width={100} height={100} layout="responsive" />
-                        </a>
-                    </div>
-                    <div className={Styles.icones}>
-                        <a href="https://www.instagram.com/washington.lemos_/?hl=pt-br" target="_blank">
-                            <Image src="/img/insta.svg" alt="Instagram" width={100} height={100} layout="responsive" />
-                        </a>
-                    </div>
-                    <div className={Styles.icones}>
-                        <a href="https://WA.me/5581982383803" target="_blank">
-                            <Image src="/img/whatsapp.svg" alt="Whatsapp" width={100} height={100} layout="responsive" />
-                        </a>
-                    </div>
-                    <div className={Styles.icones}>
-                        <a href="https://www.facebook.com/washington.lemos.961?locale=pt_BR" target="_blank">
-                            <Image src="/img/face.svg" alt="Facebook" width={100} height={100} layout="responsive" />
-                        </a>
+                <div className={Styles.formulario}>
+                    <div className={Styles.form}>
+                        <form action="https://api.staticforms.xyz/submit" method="post">
+                            <input type="hidden" name="accessKey" value="71bf7d3e-399a-41d9-a329-ea4cb2e65419" />
+                            <input type="hidden" name="redirectTo" value="https://portfolioatalizado.vercel.app/" />
+                            <input type="text" name="name" placeholder="Seu Nome" required maxLength={25} minLength={2} />
+                            <input type="text" name="email" placeholder="Seu Email" required maxLength={50} />
+                            <textarea name="message" required maxLength={150} placeholder="Deixe sua mensagem"></textarea>
+                            <button>Enviar</button>
+                        </form>
                     </div>
                 </div>
             </div>
-        </footer>
+        </section>
     )
 }

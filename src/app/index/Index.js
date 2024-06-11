@@ -5,6 +5,7 @@ import Inicio from "../components/Inicio/Inicio";
 import Projetos from "../components/Projetos/Projetos";
 import Contatos from "../components/Contatos/Contatos";
 import Ferramentas from "../components/Ferramentas/Ferramentas";
+import Footer from "../components/Footer/footer";
 
 
 export default function Index() {
@@ -16,6 +17,7 @@ export default function Index() {
             <Projetos />
             <Ferramentas />
             <Contatos />
+            <Footer />
         </div>
     )
 }
