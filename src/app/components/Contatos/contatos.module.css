@@ -960,14 +960,13 @@
         flex-direction: column;
         justify-content: space-evenly;
         width: 90%;
-        height: 80%;
+        height: 90%;
     }
 
     .form form input {
         z-index: 999;
-
         background: none;
-        height: 70px;
+        height: 60px;
         border: none;
         border-bottom: solid 2px #c0c0c0;
         outline: none;
@@ -977,8 +976,7 @@
 
     .form form textarea {
         z-index: 999;
-
-        height: 150px;
+        height: 140px;
         resize: none;
         outline: none;
         background: none;
@@ -1116,14 +1114,13 @@
         flex-direction: column;
         justify-content: space-evenly;
         width: 90%;
-        height: 80%;
+        height: 90%;
     }
 
     .form form input {
         z-index: 999;
-
         background: none;
-        height: 70px;
+        height: 60px;
         border: none;
         border-bottom: solid 2px #c0c0c0;
         outline: none;
@@ -1133,8 +1130,7 @@
 
     .form form textarea {
         z-index: 999;
-
-        height: 150px;
+        height: 140px;
         resize: none;
         outline: none;
         background: none;

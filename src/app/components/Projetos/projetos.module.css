@@ -768,6 +768,8 @@
         width: 70px;
         height: 70px;
         border-radius: 40%;
+        z-index: 99;
+
     }
 
     .icon button {
@@ -928,6 +930,8 @@
         width: 70px;
         height: 70px;
         border-radius: 40%;
+        z-index: 99;
+
     }
 
     .icon button {
@@ -1087,6 +1091,8 @@
         width: 70px;
         height: 70px;
         border-radius: 40%;
+        z-index: 99;
+
     }
 
     .icon button {
