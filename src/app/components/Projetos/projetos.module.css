@@ -864,7 +864,8 @@
     .links a {
         width: 40%;
         height: 80%;
-
+        z-index: 999;
+        cursor: pointer;
     }
 
     .links a button {
@@ -875,7 +876,6 @@
         border-radius: 8px;
         cursor: pointer;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
         font-size: 0.9rem;
         color: #FFD700;
         background-color: #B71C1C;
@@ -1024,7 +1024,8 @@
     .links a {
         width: 40%;
         height: 80%;
-
+        z-index: 999;
+        cursor: pointer;
     }
 
     .links a button {
@@ -1035,7 +1036,6 @@
         border-radius: 8px;
         cursor: pointer;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
         font-size: 0.9rem;
         color: #FFD700;
         background-color: #B71C1C;
@@ -1183,8 +1183,8 @@
     .links a {
         width: 40%;
         height: 80%;
-
-
+        z-index: 999;
+        cursor: pointer;
     }
 
     .links a button {
@@ -1350,7 +1350,6 @@
         height: 80%;
         z-index: 999;
         cursor: pointer;
-
     }
 
     .links a button {

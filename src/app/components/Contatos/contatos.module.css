@@ -706,7 +706,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(12, 0, 53, 1) 41%, rgba(12, 0, 53, 1) 100%)
+        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(12, 0, 53, 1) 41%, rgba(12, 0, 53, 1) 100%);
     }
 
     .container {
@@ -768,10 +768,12 @@
     .descricao ul li {
         color: #f2f2f2;
         font-size: 1rem;
+
     }
 
     .descricao ul a {
         text-decoration: none;
+        z-index: 999;
     }
 
     .descricao ul li:hover {
@@ -805,6 +807,8 @@
     }
 
     .form form input {
+        z-index: 999;
+
         width: 100%;
         height: 80px;
         border: none;
@@ -815,6 +819,8 @@
     }
 
     .form form textarea {
+        z-index: 999;
+
         width: 100%;
         height: 150px;
         border: none;
@@ -826,6 +832,8 @@
     }
 
     .form form button {
+        z-index: 999;
+
         width: 100%;
         height: 50px;
         font-size: 1.1rem;
@@ -920,6 +928,8 @@
 
     .descricao ul a {
         text-decoration: none;
+        z-index: 999;
+
     }
 
     .descricao ul li:hover {
@@ -954,6 +964,8 @@
     }
 
     .form form input {
+        z-index: 999;
+
         background: none;
         height: 70px;
         border: none;
@@ -964,6 +976,8 @@
     }
 
     .form form textarea {
+        z-index: 999;
+
         height: 150px;
         resize: none;
         outline: none;
@@ -975,6 +989,8 @@
     }
 
     .form form button {
+        z-index: 999;
+
         border: none;
         height: 60px;
         font-size: 1.3rem;
@@ -1068,6 +1084,8 @@
 
     .descricao ul a {
         text-decoration: none;
+        z-index: 999;
+
     }
 
     .descricao ul li:hover {
@@ -1102,6 +1120,8 @@
     }
 
     .form form input {
+        z-index: 999;
+
         background: none;
         height: 70px;
         border: none;
@@ -1112,6 +1132,8 @@
     }
 
     .form form textarea {
+        z-index: 999;
+
         height: 150px;
         resize: none;
         outline: none;
@@ -1123,6 +1145,8 @@
     }
 
     .form form button {
+        z-index: 999;
+
         border: none;
         height: 60px;
         font-size: 1.3rem;

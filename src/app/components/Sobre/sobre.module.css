@@ -568,6 +568,8 @@
         border-radius: 8px;
         background: #B71C1C;
         border: none;
+        z-index: 999;
+
     }
 
     .curriculo button a {
@@ -589,6 +591,8 @@
         width: 55px;
         height: 55px;
         border-radius: 50%;
+        z-index: 999;
+
     }
 
     .icons img {
@@ -667,6 +671,7 @@
         border-radius: 10px;
         background-color: #B71C1C;
         border: none;
+        z-index: 999;
     }
 
     .curriculo button a {
@@ -689,6 +694,7 @@
         width: 60px;
         height: 60px;
         border-radius: 50%;
+        z-index: 999;
     }
 
     .icons img {
@@ -768,6 +774,7 @@
         border-radius: 10px;
         background-color: #B71C1C;
         border: none;
+        z-index: 999;
     }
 
     .curriculo button a {
@@ -790,6 +797,8 @@
         width: 60px;
         height: 60px;
         border-radius: 50%;
+        z-index: 999;
+
     }
 
     .icons img {
