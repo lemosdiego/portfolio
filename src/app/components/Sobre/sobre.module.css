@@ -774,7 +774,6 @@
         border-radius: 10px;
         background-color: #B71C1C;
         border: none;
-        z-index: 999;
     }
 
     .curriculo button a {
@@ -793,11 +792,9 @@
     }
 
     .icons {
-        border: solid 1px #000;
         width: 60px;
         height: 60px;
         border-radius: 50%;
-        z-index: 999;
 
     }
 
@@ -888,7 +885,6 @@
         background-color: #B71C1C;
         border: none;
         border-radius: 10px;
-        z-index: 999;
         cursor: pointer;
     }
 
@@ -908,7 +904,6 @@
         width: 70px;
         height: 70px;
         border-radius: 50%;
-        z-index: 999;
         cursor: pointer;
     }
 

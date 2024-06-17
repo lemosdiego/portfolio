@@ -60,7 +60,7 @@ export default function Menu() {
                 </div>
                 <div className={Styles.icones}>
                     <Image src="/menu/openwhite.svg" id="open" onClick={abrirMenuDesk} className={Styles.open} alt="open" width={40} height={40} />
-                    <Image src="/menu/close.svg" id="close" onClick={fecharMenuDesk} className={Styles.close} alt="close" width={40} height={40} style={{ display: "none" }} />
+                    <Image id="close" onClick={fecharMenuDesk} className={Styles.close} alt="close" width={40} height={40} style={{ display: "none" }} />
                 </div>
             </div>
             <nav className={Styles.nav} id="nav">
