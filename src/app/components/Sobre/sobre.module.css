@@ -568,8 +568,6 @@
         border-radius: 8px;
         background: #B71C1C;
         border: none;
-        z-index: 999;
-
     }
 
     .curriculo button a {
@@ -671,7 +669,6 @@
         border-radius: 10px;
         background-color: #B71C1C;
         border: none;
-        z-index: 999;
     }
 
     .curriculo button a {
