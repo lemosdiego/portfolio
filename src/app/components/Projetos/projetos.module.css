@@ -718,6 +718,10 @@
         border: none;
         color: #FFD700;
     }
+
+    .links a button:hover {
+        color: #00BFFF;
+    }
 }
 
 @media (min-width: 851px) and (max-width: 1024px) {
@@ -878,6 +882,10 @@
         color: #FFD700;
         background-color: #B71C1C;
     }
+
+    .links a button:hover {
+        color: #00BFFF;
+    }
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -1036,6 +1044,10 @@
         font-size: 0.9rem;
         color: #FFD700;
         background-color: #B71C1C;
+    }
+
+    .links a button:hover {
+        color: #00BFFF;
     }
 }
 
@@ -1196,6 +1208,10 @@
         background-color: #B71C1C;
         color: #FFD700;
         border-radius: 8px;
+    }
+
+    .links a button:hover {
+        color: #00BFFF;
     }
 }
 

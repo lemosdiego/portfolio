@@ -576,6 +576,11 @@
         font-size: 1.2rem;
     }
 
+    .curriculo button a:hover {
+        color: #00BFFF;
+
+    }
+
     .contatos {
         width: 50%;
         height: 80%;
@@ -675,6 +680,11 @@
         color: #FFD700;
         text-decoration: none;
         font-size: 1.1rem;
+    }
+
+    .curriculo button a:hover {
+        color: #00BFFF;
+
     }
 
     .contatos {
@@ -777,6 +787,11 @@
         color: #FFD700;
         text-decoration: none;
         font-size: 1.1rem;
+    }
+
+    .curriculo button a:hover {
+        color: #00BFFF;
+
     }
 
     .contatos {
