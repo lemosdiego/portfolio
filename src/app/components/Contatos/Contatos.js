@@ -16,7 +16,7 @@ export default function Contatos() {
                         <ul>
                             <a href="https://www.linkedin.com/in/washington-lemos-033177186/" target="blank"><li>Linkedin</li></a>
                             <a href="https://www.instagram.com/washington.lemos_/?hl=pt-br" target="blank"><li>Instagram</li></a>
-                            <a href="<li>Facebook</li>" target="blank"><li>Facebook</li></a>
+                            <a href="https://www.facebook.com/washington.lemos.961/?locale=pt_BR" target="blank"><li>Facebook</li></a>
                             <a href="https://WA.me/5581982383803" target="blank"><li>Whatsapp</li></a>
                         </ul>
                     </div>
