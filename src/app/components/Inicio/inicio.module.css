@@ -968,4 +968,113 @@
 
 }
 
-@media (min-width: 1901px) {}
+@media (min-width: 1901px) {
+    .container {
+        height: 100vh;
+        background-image: url(../../../../public/img/design1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-attachment: fixed;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+        font-weight: 900;
+    }
+
+    .inicio {
+        width: 1000%;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .apresentacao {
+        width: 70%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo {
+        width: 90%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4rem;
+        color: #B71C1C;
+    }
+
+    .subtitle {
+        width: 80%;
+        height: 12%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        color: #FFD700;
+    }
+
+    .descricao {
+        width: 90%;
+        height: 52%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .descricao h3 {
+        color: #B71C1C;
+        font-size: 2.5rem;
+        height: 20%;
+    }
+
+    .descricao p {
+        width: 70%;
+        font-size: 1.4rem;
+        text-align: left;
+        line-height: 26px;
+        color: #FFD700;
+    }
+
+    .redes {
+        width: 90%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .redes a {
+        width: 18%;
+        height: 50px;
+        z-index: 999;
+        cursor: pointer;
+    }
+
+    .redes a button {
+        background-color: #B71C1C;
+        color: #FFD700;
+        border: none;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        font-size: 1.1rem;
+        border-radius: 10px;
+    }
+
+    .redes a button:hover {
+        color: #00BFFF;
+
+    }
+}

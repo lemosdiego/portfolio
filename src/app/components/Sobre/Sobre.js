@@ -15,7 +15,7 @@ export default function Sobre() {
                 </div>
                 <div className={Styles.redes_sociais}>
                     <div className={Styles.curriculo}>
-                        <button><a href="/assets/img/CVwashington.pdf" download>Currículo</a></button>
+                        <button><a href="/img/CVWashington.pdf" download>Currículo</a></button>
                         <button><a href="https://drive.google.com/drive/folders/1zDTjqRBDQOFBmYn4MCzDyF1tl_CG-VV8?usp=sharing" target="_blank" rel="noopener noreferrer">Certificados</a></button>
                     </div>
                     <div className={Styles.contatos}>
