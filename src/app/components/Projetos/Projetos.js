@@ -48,13 +48,15 @@ export default function Projetos() {
                                 <h3>Floricultor</h3>
                             </div>
                             <div className={Styles.descricao}>
-                                <p>Este portfólio é uma vitrine interativa dos meus projetos e habilidades em desenvolvimento web, criado utilizando HTML, CSS e JavaScript. O objetivo principal é demonstrar minha capacidade de criar interfaces de usuário elegantes, funcionais e responsivas.</p>
+                                <p>Projeto de uma landing page que estou desenvolvendo, om Next.js e media queries, oferecemos uma experiência otimizada em todos os dispositivos</p>
                             </div>
                             <div className={Styles.links}>
                                 <a href="https://github.com/lemosdiego/meu-Portfolio.git" target="_blank" rel="noopener noreferrer">
                                     <button>Repositório</button>
                                 </a>
-
+                                <a href="https://landing-page-floricultura.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <button>Deploy</button>
+                                </a>
                             </div>
                         </div>
                         <div className={Styles.card}>
