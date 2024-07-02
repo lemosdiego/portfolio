@@ -99,6 +99,25 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
+                                <img src="/projetos/previsao.png" alt="projeto8" width={100} height={100} />
+                            </div>
+                            <div className={Styles.titulo}>
+                                <h3>Previsão do tempo</h3>
+                            </div>
+                            <div className={Styles.descricao}>
+                                <p>Esta aplicação de previsão do tempo foi desenvolvida usando HTML, CSS e JavaScript para oferecer informações meteorológicas precisas e atualizadas aos usuários. A aplicação permite que os usuários verifiquem as condições climáticas em tempo real de qualquer cidade ao redor do mundo.</p>
+                            </div>
+                            <div className={Styles.links}>
+                                <a href="https://github.com/lemosdiego/previsao-do-tempo.git" target="_blank" rel="noopener noreferrer">
+                                    <button>Repositório</button>
+                                </a>
+                                <a href="https://vercel.com/washington-lemos-projects/previsao-do-tempo/DU5Rns7JKcMv5owqoZeahQNMUwef" target="_blank" rel="noopener noreferrer">
+                                    <button>Deploy</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div className={Styles.card}>
+                            <div className={Styles.imagem}>
                                 <img src="/projetos/projeto2.png" alt="projeto2" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
@@ -192,25 +211,6 @@ export default function Projetos() {
                                     <button>Repositório</button>
                                 </a>
                                 <a href="https://portifolio2-cyan.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                    <button>Deploy</button>
-                                </a>
-                            </div>
-                        </div>
-                        <div className={Styles.card}>
-                            <div className={Styles.imagem}>
-                                <img src="/projetos/projeto6.jpeg" alt="projeto8" width={100} height={100} />
-                            </div>
-                            <div className={Styles.titulo}>
-                                <h3>Previsão do tempo</h3>
-                            </div>
-                            <div className={Styles.descricao}>
-                                <p>Esta aplicação de previsão do tempo foi desenvolvida usando HTML, CSS e JavaScript para oferecer informações meteorológicas precisas e atualizadas aos usuários. A aplicação permite que os usuários verifiquem as condições climáticas em tempo real de qualquer cidade ao redor do mundo.</p>
-                            </div>
-                            <div className={Styles.links}>
-                                <a href="https://github.com/lemosdiego/previsao-do-tempo.git" target="_blank" rel="noopener noreferrer">
-                                    <button>Repositório</button>
-                                </a>
-                                <a href="https://vercel.com/washington-lemos-projects/previsao-do-tempo/DU5Rns7JKcMv5owqoZeahQNMUwef" target="_blank" rel="noopener noreferrer">
                                     <button>Deploy</button>
                                 </a>
                             </div>
