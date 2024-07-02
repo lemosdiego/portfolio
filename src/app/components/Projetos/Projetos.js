@@ -42,7 +42,24 @@ export default function Projetos() {
                     <div className={Styles.container_card} id="projeto">
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto1.jpeg" alt="projeto1" width={100} height={100} />
+                                <img src="/projetos/floricultura.png" alt="projeto1" width={100} height={100} />
+                            </div>
+                            <div className={Styles.titulo}>
+                                <h3>Floricultor</h3>
+                            </div>
+                            <div className={Styles.descricao}>
+                                <p>Este portfólio é uma vitrine interativa dos meus projetos e habilidades em desenvolvimento web, criado utilizando HTML, CSS e JavaScript. O objetivo principal é demonstrar minha capacidade de criar interfaces de usuário elegantes, funcionais e responsivas.</p>
+                            </div>
+                            <div className={Styles.links}>
+                                <a href="https://github.com/lemosdiego/meu-Portfolio.git" target="_blank" rel="noopener noreferrer">
+                                    <button>Repositório</button>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div className={Styles.card}>
+                            <div className={Styles.imagem}>
+                                <img src="/projetos/projeto1.jpeg" alt="projeto1" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Portfolio 2</h3>
@@ -61,7 +78,26 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto2.png" alt="projeto2" width={100} height={100} />
+                                <img src="/projetos/imc.webp" alt="projeto3" />
+                            </div>
+                            <div className={Styles.titulo}>
+                                <h3>Calculadora IMC</h3>
+                            </div>
+                            <div className={Styles.descricao}>
+                                <p>A Calculadora IMC é uma aplicação web simples que permite aos usuários calcular seu Índice de Massa Corporal IMC com base em sua altura e peso. Utilizando HTML, CSS e JavaScript, a aplicação fornece uma interface amigável onde os usuários podem inserir seus dados, obter o valor do IMC e ver uma classificação sobre seu estado de saúde.</p>
+                            </div>
+                            <div className={Styles.links}>
+                                <a href="https://github.com/lemosdiego/IMC-project.git" target="_blank" rel="noopener noreferrer">
+                                    <button>Repositório</button>
+                                </a>
+                                <a href="https://imc-delta-seven.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <button>Deploy</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div className={Styles.card}>
+                            <div className={Styles.imagem}>
+                                <img src="/projetos/projeto2.png" alt="projeto2" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Lupulus Maximus</h3>
@@ -77,7 +113,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto3.svg" alt="projeto3" width={100} height={100} />
+                                <img src="/projetos/projeto3.svg" alt="projeto3" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Find my beer</h3>
@@ -93,7 +129,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/blog.svg" alt="projeto4" width={100} height={100} />
+                                <img src="/projetos/blog.svg" alt="projeto4" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Blog Angular</h3>
@@ -109,7 +145,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/quizz.svg" alt="projeto5" width={100} height={100} />
+                                <img src="/projetos/quizz.svg" alt="projeto5" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Quizz Angular</h3>
@@ -125,7 +161,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto4.svg" alt="projeto6" width={100} height={100} />
+                                <img src="/projetos/projeto4.svg" alt="projeto6" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Calculadora</h3>
@@ -141,7 +177,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto5.jpeg" alt="projeto7" width={100} height={100} />
+                                <img src="/projetos/projeto5.jpeg" alt="projeto7" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Portfolio 1</h3>
@@ -160,7 +196,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto6.jpeg" alt="projeto8" width={100} height={100} />
+                                <img src="/projetos/projeto6.jpeg" alt="projeto8" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Previsão do tempo</h3>
@@ -179,23 +215,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/imc.svg" alt="projeto9" width={100} height={100} />
-                            </div>
-                            <div className={Styles.titulo}>
-                                <h3>Calculadora IMC</h3>
-                            </div>
-                            <div className={Styles.descricao}>
-                                <p>A Calculadora IMC é uma aplicação web simples que permite aos usuários calcular seu Índice de Massa Corporal IMC com base em sua altura e peso. Utilizando HTML, CSS e JavaScript, a aplicação fornece uma interface amigável onde os usuários podem inserir seus dados, obter o valor do IMC e ver uma classificação sobre seu estado de saúde.</p>
-                            </div>
-                            <div className={Styles.links}>
-                                <a href="https://github.com/lemosdiego/IMC-project.git" target="_blank" rel="noopener noreferrer">
-                                    <button>Repositório</button>
-                                </a>
-                            </div>
-                        </div>
-                        <div className={Styles.card}>
-                            <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto7.svg" alt="projeto10" width={100} height={100} />
+                                <img src="/projetos/projeto7.svg" alt="projeto10" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Lista de tarefas</h3>
@@ -207,7 +227,7 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
-                                <Image src="/projetos/projeto8.jpeg" alt="projeto11" width={100} height={100} />
+                                <img src="/projetos/projeto8.jpeg" alt="projeto11" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
                                 <h3>Site android</h3>
