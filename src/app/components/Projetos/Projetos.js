@@ -111,7 +111,7 @@ export default function Projetos() {
                                 <a href="https://github.com/lemosdiego/previsao-do-tempo.git" target="_blank" rel="noopener noreferrer">
                                     <button>Repositório</button>
                                 </a>
-                                <a href="https://vercel.com/washington-lemos-projects/previsao-do-tempo/DU5Rns7JKcMv5owqoZeahQNMUwef" target="_blank" rel="noopener noreferrer">
+                                <a href="https://previsao-do-tempo-mu.vercel.app/" target="_blank" rel="noopener noreferrer">
                                     <button>Deploy</button>
                                 </a>
                             </div>
