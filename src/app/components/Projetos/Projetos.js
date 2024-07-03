@@ -118,6 +118,25 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
+                                <img src="/projetos/quizz.svg" alt="projeto5" width={100} height={100} />
+                            </div>
+                            <div className={Styles.titulo}>
+                                <h3>Quizz Angular</h3>
+                            </div>
+                            <div className={Styles.descricao}>
+                                <p>O Quizz com Angular é uma aplicação web divertida e educativa, construída utilizando o framework Angular. Este projeto permite aos usuários participar de quizzes interativos em uma variedade de tópicos, responder perguntas, receber feedback imediato e ver suas pontuações finais.</p>
+                            </div>
+                            <div className={Styles.links}>
+                                <a href="https://github.com/lemosdiego/quizz_angular.git" target="_blank" rel="noopener noreferrer">
+                                    <button>Repositório</button>
+                                </a>
+                                <a href="https://quizz-angular-nine.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <button>Deploy</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div className={Styles.card}>
+                            <div className={Styles.imagem}>
                                 <img src="/projetos/projeto2.png" alt="projeto2" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
@@ -160,22 +179,6 @@ export default function Projetos() {
                             </div>
                             <div className={Styles.links}>
                                 <a href="https://github.com/lemosdiego/blog-project.git" target="_blank" rel="noopener noreferrer">
-                                    <button>Repositório</button>
-                                </a>
-                            </div>
-                        </div>
-                        <div className={Styles.card}>
-                            <div className={Styles.imagem}>
-                                <img src="/projetos/quizz.svg" alt="projeto5" width={100} height={100} />
-                            </div>
-                            <div className={Styles.titulo}>
-                                <h3>Quizz Angular</h3>
-                            </div>
-                            <div className={Styles.descricao}>
-                                <p>O Quizz com Angular é uma aplicação web divertida e educativa, construída utilizando o framework Angular. Este projeto permite aos usuários participar de quizzes interativos em uma variedade de tópicos, responder perguntas, receber feedback imediato e ver suas pontuações finais.</p>
-                            </div>
-                            <div className={Styles.links}>
-                                <a href="https://github.com/lemosdiego/quizz_angular.git" target="_blank" rel="noopener noreferrer">
                                     <button>Repositório</button>
                                 </a>
                             </div>
