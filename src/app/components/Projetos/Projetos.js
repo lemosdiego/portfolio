@@ -137,6 +137,25 @@ export default function Projetos() {
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
+                                <img src="/projetos/tarefas.png" alt="projeto10" width={100} height={100} />
+                            </div>
+                            <div className={Styles.titulo}>
+                                <h3>Lista de tarefas</h3>
+                            </div>
+                            <div className={Styles.descricao}>
+                                <p>A Lista de Tarefas é uma aplicação web simples e funcional que permite aos usuários criar, gerenciar e rastrear suas tarefas diárias. Utilizando HTML, CSS e JavaScript, essa aplicação proporciona uma interface intuitiva para adicionar novas tarefas, marcar tarefas como concluídas e remover tarefas da lista.</p>
+                            </div>
+                            <div className={Styles.links}>
+                                <a href="https://github.com/lemosdiego/Tarefas-Diarias.git" target="_blank" rel="noopener noreferrer">
+                                    <button>Repositório</button>
+                                </a>
+                                <a href="https://tarefas-diarias-omega.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <button>Deploy</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div className={Styles.card}>
+                            <div className={Styles.imagem}>
                                 <img src="/projetos/projeto2.png" alt="projeto2" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
@@ -217,18 +236,6 @@ export default function Projetos() {
                                     <button>Deploy</button>
                                 </a>
                             </div>
-                        </div>
-                        <div className={Styles.card}>
-                            <div className={Styles.imagem}>
-                                <img src="/projetos/projeto7.svg" alt="projeto10" width={100} height={100} />
-                            </div>
-                            <div className={Styles.titulo}>
-                                <h3>Lista de tarefas</h3>
-                            </div>
-                            <div className={Styles.descricao}>
-                                <p>A Lista de Tarefas é uma aplicação web simples e funcional que permite aos usuários criar, gerenciar e rastrear suas tarefas diárias. Utilizando HTML, CSS e JavaScript, essa aplicação proporciona uma interface intuitiva para adicionar novas tarefas, marcar tarefas como concluídas e remover tarefas da lista.</p>
-                            </div>
-                            <div className={Styles.links}></div>
                         </div>
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
