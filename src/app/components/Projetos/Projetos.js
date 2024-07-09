@@ -42,6 +42,25 @@ export default function Projetos() {
                     <div className={Styles.container_card} id="projeto">
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
+                                <img src="/projetos/apresentacao.png" alt="projeto1" width={100} height={100} />
+                            </div>
+                            <div className={Styles.titulo}>
+                                <h3>Apresentação</h3>
+                            </div>
+                            <div className={Styles.descricao}>
+                                <p>Projetinho desenvolvido como desafio para entrar no Código Certo é uma iniciativa dedicada a impulsionar a inovação e o desenvolvimento digital, utilizando HTML, CSS e JavaScript </p>
+                            </div>
+                            <div className={Styles.links}>
+                                <a href="https://github.com/lemosdiego/TrilhaFrontEndJR-JUN15.git" target="_blank" rel="noopener noreferrer">
+                                    <button>Repositório</button>
+                                </a>
+                                <a href="https://my-apresentation-trilha-front-end.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <button>Deploy</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div className={Styles.card}>
+                            <div className={Styles.imagem}>
                                 <img src="/projetos/floricultura.png" alt="projeto1" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
