@@ -42,6 +42,25 @@ export default function Projetos() {
                     <div className={Styles.container_card} id="projeto">
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
+                                <img src="/projetos/calculadora.png" alt="projeto1" width={100} height={100} />
+                            </div>
+                            <div className={Styles.titulo}>
+                                <h3>Calculadora</h3>
+                            </div>
+                            <div className={Styles.descricao}>
+                                <p>Projeto simples de uma calculadora utilizando HTML, CSS e JavaScript.</p>
+                            </div>
+                            <div className={Styles.links}>
+                                <a href="https://github.com/lemosdiego/calculadora.git" target="_blank" rel="noopener noreferrer">
+                                    <button>Repositório</button>
+                                </a>
+                                <a href="https://calculadora-liard-ten.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <button>Deploy</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div className={Styles.card}>
+                            <div className={Styles.imagem}>
                                 <img src="/projetos/apresentacao.png" alt="projeto1" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
@@ -217,22 +236,6 @@ export default function Projetos() {
                             </div>
                             <div className={Styles.links}>
                                 <a href="https://github.com/lemosdiego/blog-project.git" target="_blank" rel="noopener noreferrer">
-                                    <button>Repositório</button>
-                                </a>
-                            </div>
-                        </div>
-                        <div className={Styles.card}>
-                            <div className={Styles.imagem}>
-                                <img src="/projetos/projeto4.svg" alt="projeto6" width={100} height={100} />
-                            </div>
-                            <div className={Styles.titulo}>
-                                <h3>Calculadora</h3>
-                            </div>
-                            <div className={Styles.descricao}>
-                                <p>O projeto consiste na criação de uma calculadora funcional utilizando HTML, CSS e JavaScript. Esta calculadora será capaz de realizar operações aritméticas básicas como adição, subtração, multiplicação e divisão. A interface será simples e intuitiva, garantindo uma boa experiência de usuário.</p>
-                            </div>
-                            <div className={Styles.links}>
-                                <a href="" target="_blank" rel="noopener noreferrer">
                                     <button>Repositório</button>
                                 </a>
                             </div>
