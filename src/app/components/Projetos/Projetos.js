@@ -42,6 +42,25 @@ export default function Projetos() {
                     <div className={Styles.container_card} id="projeto">
                         <div className={Styles.card}>
                             <div className={Styles.imagem}>
+                                <img src="/projetos/desafio.png" alt="projeto1" width={100} height={100} />
+                            </div>
+                            <div className={Styles.titulo}>
+                                <h3>Sistema de Pagamento</h3>
+                            </div>
+                            <div className={Styles.descricao}>
+                                <p>O projeto consiste em um sistema de pagamentos desenvolvido com foco em usabilidade e experiência do usuário. Ele foi projetado para ser intuitivo e eficiente, permitindo que os clientes escolham e realizem pagamentos de maneira simples e rápida. Tecnologias: Next.JS Material UI, CSS.</p>
+                            </div>
+                            <div className={Styles.links}>
+                                <a href="https://github.com/lemosdiego/DesafioFront-End-Woovi.git" target="_blank" rel="noopener noreferrer">
+                                    <button>Repositório</button>
+                                </a>
+                                <a href="https://desafio-front-end-woovi-kappa.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <button>Deploy</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div className={Styles.card}>
+                            <div className={Styles.imagem}>
                                 <img src="/projetos/calculadora.png" alt="projeto1" width={100} height={100} />
                             </div>
                             <div className={Styles.titulo}>
